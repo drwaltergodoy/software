@@ -1,0 +1,66 @@
+// 12619738 
+// Sacramento
+
+///////////////////////////////////////
+// input data definitions
+
+[input]
+name = 86131
+file = c:\fors\86131_detrended_rainfall.csv
+
+[input]
+name = 86035
+file = c:\fors\86035_detrended_rainfall.csv
+
+[input]
+name = 86070
+file = c:\fors\86070_detrended_rainfall.csv
+
+[input]
+name = evap
+file = c:\fors\86035_morton_wet_detrended.csv
+
+
+///////////////////////////////////////
+// sacramento models
+
+
+[sacramento model]
+name = sacramento_model
+rainfall = 0.3431466479521*86131 + 0.0942488341238664*86035 + 0.562604517924034*86070
+evaporation = evap
+parameters = +
+    0.0805594104691588, 107.895588271217, 18.7162387273691, 2.36696650711058E-05, + //adimp, lzfpm, lzfsm, lzpk
+    0.0155090540531609, 17.1213863780057, 0.0669740425434799, 0.496060555017703, + //lzsk, lztwm, pctim, pfree
+    1.29979485685046, 7.10493478159018E-06, 0.00587353288715141, 0.016653073491981, + //rexp, sarva, side, ssout
+    25.5813912074599, 0.185555335824547, 92.6223240270499, 541.40284982378 //uzfwm, uzk, uztwm, zperc
+uh = 0, 0, 0.204099118804605, 0.795900881195395
+
+
+///////////////////////////////////////
+// recorders
+
+[sacramento]
+name = Sacramento_node
+area = 669.4
+model = Sacramento_model
+dsnode = loss_node
+
+[function]
+name = outlet
+location = -45, -20
+expression = nan
+
+[loss]
+name = loss_node
+location = -18.29545, 1.363636
+losstable = loss_off.csv
+dsnode = outlet
+
+[recorder] /////downstream flow
+node = Outlet
+outno = 0
+filename = C:\FORS\Chandler_Inc_Sacramento_output.csv
+
+
+

@@ -1,0 +1,105 @@
+
+Software Licence Agreement - STEDI
+
+The STEDI software and all associated documentation have been designed, created and updated by Sinclair Knight Merz Pty Ltd ('SKM') for the Department of Sustainability & Environment Victoria ('DSE'). The Software is subject to a licence agreement (reproduced below) that must be agreed to prior to its use.
+
+DEFINITIONS
+1)  In this Licence:
+    'Licence' means this licence agreement between You on the one part, and
+    DSE and SKM on the other part; 
+    'Licensor' means DSE and SKM;
+    'Software' means the executable version of the STEDI software program; and
+    'You' or 'your' means you, the licensee and a user of the Software.
+
+INTERPRETATION
+2)  A reference to:
+    (a) a singular word includes the plural, and vice versa; and
+    (b) a word which suggests one gender includes the other genders.
+3)  If a word is defined, another part of speech has a corresponding meaning.
+ 
+NATURE OF THE LICENCE
+4)  The Licensor grants You a non-exclusive and non-transferable right to use the Software only in accordance with the terms of this Licence. This Licence does not allow You to sublicense the Software.
+LICENCE
+5)  The conditions of this Licence are accepted by You when You sign this License. 
+6)  The Licensor reserves the right to refuse to grant to any person the right to use the Software without giving any reasons.
+
+USE OF NAMES
+7)  You must not use the name, any trademark or logo of the Licensor to claim any sponsorship,
+endorsement, approval or affiliation or other association with that Licensor by virtue of the Licence, except with the written permission of that Licensor.
+
+ PROPRIETARY RIGHTS
+8)  You acknowledge and agree that the title, ownership and intellectual property rights in the Software remain vested in the Licensor.
+ 
+YOUR RIGHTS TO USE THE SOFTWARE
+9)  You may only make one copy of the Software for backup purposes or otherwise as permitted by law where those provisions cannot be excluded by contract.  You must not provide use of or access to the Software over the public internet or via a network.
+10) You must not remove notices, symbols or labels in or used in connection with the Software.
+11) You must not amend or develop the Software or reverse engineer the whole or any part of the Software.
+
+LICENCE FEE
+12) In consideration of You using the Software in accordance with this Licence, the Licensor agrees 
+       not to charge You a fee.
+ 
+REPRESENTATIONS
+13) The Licensor does not warrant or make any representations:
+    (a) that the Software is:
+        (i)   of merchantable quality; or
+        (ii)  suitable for your use; or
+        (iii) fit for any other purpose; or
+    (b) that the operation of the Software will be uninterrupted; or
+    (c) that the Software is free from error or virus; or
+    (d) regarding the results of any use of the Software; or
+    (e) as to the accuracy, reliability or content of any data, information, service or goods obtained 
+          through any use of the Software; or
+    (f) that the use of the Software will not infringe the intellectual property rights of a third party.
+ 
+EXCLUSION OF LIABILITY
+14) To the extent permitted by the law, the Licensor shall not be liable for any loss or damage 
+      (including direct, indirect, special or consequential loss or damage) in connection with the use of 
+      the Software by You.
+15) Where the law implies a warranty or condition in relation to this Licence, which cannot be
+       modified or excluded then this Licence will be read subject to that provision.  
+16) Where a party to this Licence consists of more than one person, those persons shall be jointly and severally bound by this Licence.
+17) Where the law permits, the liability of the Licensor for any loss or damage (including direct, 
+       indirect, special or consequential loss or damage) suffered by You for breach of an implied 
+      warranty or condition is limited, at its option to re-supply of the Software.  
+18) You agree to release and indemnify the Licensor against any loss, damage or claims   (including third party claims) suffered as a result of  the use of the Software by You.  
+
+
+
+USER SUPPORT
+19) It is your responsibility to ensure proper installation of the Software.  
+20) Although periodic updates of the Software may occur from time to time, the Licensor has no obligation to provide You notification of such updates.  
+21) The Licensor has no obligation to provide You user support of any kind .  
+
+ENTIRE AGREEMENT
+22) This Licence sets out the entire agreement between the parties and supersedes all prior agreements whether written or oral.
+ 
+VARIATION OF LICENCE
+23) This Licence may only be varied in writing signed by all parties.
+
+SEVERABILITY
+24) Any provision in this Licence which is invalid or unenforceable is to be read down if possible, so  as to be valid and enforceable, and if that is not possible the provision shall, to the extent that it is capable, be severed to the extent of the invalidity or unenforceability without affecting the remaining provisions.
+ 
+WAIVER
+25) No right or obligation under this Licence is deemed to be waived except upon written
+      acknowledgment signed by each party.
+ 
+DISPUTE RESOLUTION
+26) If there is a dispute arising out of or in connection with this Licence, the parties agree to negotiate in good faith to resolve it.
+27) If the dispute is not resolved by those negotiations within 30 days, a party may refer the dispute to the Australian Commercial Dispute Centre Limited (ACDC) for resolution by mediation and if 
+necessary by arbitration in accordance with the Conciliation Rules of the ACDC.
+28) Any determination of a dispute by the ACDC must include a determination as to the award of costs.
+ 
+GOVERNING LAW
+29) This Licence is governed by and construed in accordance with the laws of the State of Victoria.
+ 
+TERMINATION OF THE LICENCE
+30) The Licensor may terminate this Licence at any time:
+    (a) by giving You written notice; or
+    (b) in the case of an electronic expiry mechanism contained in the Software, upon the expiry 
+          mechanism being activated by the software and ceasing to function.
+31) Unless the Licensor terminates this Licence under clause 30, this Licence expires 2 years after commencement.  
+
+32) If the Licensor terminates this Licence, You must:
+    (a) not use the Software; and
+    (b) destroy all copies of the Software in your power, control or possession.

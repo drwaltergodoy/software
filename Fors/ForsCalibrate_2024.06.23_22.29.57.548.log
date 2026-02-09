@@ -1,0 +1,6834 @@
+Timestamp 10:29:57.612
+SCE calibration run started with the following parameters
+Dimensionality of problem, n         = 4
+Number of points in each complex, m  = 9
+Number of complexes, q               = 12
+Total population size, s             = 108
+Evolutionary steps per shuffle, I    = 9
+Number of parents, p                 = 5
+Number of siblings, L                = 1
+Parental selection exponent, elitism = 1
+Maximum number of model runs, ndraw  = 80000
+Seeded                               = False
+Random seed value                    = 672753518
+
+Timestamp 10:29:57.623
+Cloning the model for 12 threads.
+
+Timestamp 10:29:57.719
+Creating initial population of 108 individuals
+on 12 threads.
+
+Timestamp 10:29:58.551
+Done.
+
+Timestamp 10:29:58.552
+Population summary:
+Number of complexes: 12
+
+Complex number 0
+0   0.675 0.973 0.474 0.325 NaN                 
+1   0.816 0.897 0.319 0.697 NaN                 
+2   0.265 0.670 0.366 0.335 NaN                 
+3   0.662 0.989 0.778 0.091 NaN                 
+4   0.900 0.377 0.209 0.316 NaN                 
+5   0.685 0.258 0.694 0.233 NaN                 
+6   0.573 0.414 0.255 0.543 NaN                 
+7   0.767 0.577 0.526 0.671 NaN                 
+8   0.167 0.150 0.644 0.767 NaN                 
+
+Complex number 1
+0   0.626 0.588 0.492 0.582 NaN                 
+1   0.549 0.011 0.894 0.282 NaN                 
+2   0.561 0.851 0.293 0.922 NaN                 
+3   0.495 0.622 0.912 0.142 NaN                 
+4   0.411 0.442 0.635 0.815 NaN                 
+5   0.431 0.515 0.858 0.072 NaN                 
+6   0.865 0.159 0.112 0.805 NaN                 
+7   0.473 0.238 0.033 0.291 NaN                 
+8   0.724 0.812 0.828 0.908 NaN                 
+
+Complex number 2
+0   0.874 0.573 0.152 0.942 NaN                 
+1   0.690 0.182 0.680 0.952 NaN                 
+2   0.227 0.089 0.736 0.377 NaN                 
+3   0.285 0.298 0.084 0.274 NaN                 
+4   0.591 0.735 0.458 0.119 NaN                 
+5   0.776 0.948 0.849 0.863 NaN                 
+6   0.355 0.537 0.580 0.479 NaN                 
+7   0.164 0.447 0.163 0.202 NaN                 
+8   0.505 0.139 0.541 0.055 NaN                 
+
+Complex number 3
+0   0.245 0.540 0.712 0.361 NaN                 
+1   0.948 0.366 0.659 0.520 NaN                 
+2   0.205 0.462 0.055 0.096 NaN                 
+3   0.649 0.031 0.442 0.017 NaN                 
+4   0.717 0.887 0.889 0.683 NaN                 
+5   0.156 0.358 0.866 0.009 NaN                 
+6   0.447 0.486 0.472 0.976 NaN                 
+7   0.801 0.116 0.945 0.128 NaN                 
+8   0.067 0.264 0.019 0.996 NaN                 
+
+Complex number 4
+0   0.734 0.928 0.298 0.160 NaN                 
+1   0.117 0.400 0.184 0.927 NaN                 
+2   0.968 0.764 0.960 0.984 NaN                 
+3   0.108 0.282 0.963 0.637 NaN                 
+4   0.322 0.912 0.506 0.514 NaN                 
+5   0.380 0.123 0.770 0.180 NaN                 
+6   0.517 0.224 0.336 0.651 NaN                 
+7   0.748 0.614 0.012 0.247 NaN                 
+8   0.341 0.924 0.171 0.503 NaN                 
+
+Complex number 5
+0   0.010 0.068 0.137 0.847 NaN                 
+1   0.177 0.972 0.274 0.569 NaN                 
+2   0.094 0.863 0.065 0.063 NaN                 
+3   0.464 0.716 0.996 0.156 NaN                 
+4   0.057 0.822 0.700 0.959 NaN                 
+5   0.850 0.001 0.654 0.878 NaN                 
+6   0.297 0.837 0.623 0.899 NaN                 
+7   0.580 0.509 0.586 0.441 NaN                 
+8   0.897 0.602 0.670 0.299 NaN                 
+
+Complex number 6
+0   0.836 0.480 0.143 0.176 NaN                 
+1   0.710 0.027 0.617 0.725 NaN                 
+2   0.313 0.657 0.045 0.788 NaN                 
+3   0.240 0.695 0.286 0.076 NaN                 
+4   0.201 0.099 0.005 0.609 NaN                 
+5   0.911 0.270 0.565 0.393 NaN                 
+6   0.887 0.245 0.812 0.967 NaN                 
+7   0.258 0.136 0.789 0.364 NaN                 
+8   0.022 0.325 0.874 0.216 NaN                 
+
+Complex number 7
+0   0.610 0.939 0.374 0.811 NaN                 
+1   0.367 0.051 0.483 0.732 NaN                 
+2   0.857 0.057 0.357 0.133 NaN                 
+3   0.456 0.631 0.424 0.255 NaN                 
+4   0.698 0.830 0.268 0.454 NaN                 
+5   0.350 0.899 0.415 0.643 NaN                 
+6   0.753 0.607 0.517 0.757 NaN                 
+7   0.082 0.956 0.245 0.463 NaN                 
+8   0.420 0.316 0.221 0.263 NaN                 
+
+Complex number 8
+0   0.531 0.426 0.201 0.861 NaN                 
+1   0.131 0.171 0.934 0.824 NaN                 
+2   0.825 0.422 0.602 0.411 NaN                 
+3   0.035 0.523 0.452 0.627 NaN                 
+4   0.087 0.039 0.762 0.208 NaN                 
+5   0.923 0.558 0.819 0.894 NaN                 
+6   0.782 0.493 0.393 0.528 NaN                 
+7   0.399 0.803 0.988 0.596 NaN                 
+8   0.394 0.713 0.918 0.192 NaN                 
+
+Complex number 9
+0   0.371 0.385 0.593 0.779 NaN                 
+1   0.270 0.313 0.839 0.405 NaN                 
+2   0.544 0.693 0.099 0.689 NaN                 
+3   0.295 0.774 0.555 0.719 NaN                 
+4   0.998 0.870 0.936 0.431 NaN                 
+5   0.812 0.468 0.186 0.665 NaN                 
+6   0.121 0.217 0.380 0.107 NaN                 
+7   0.521 0.080 0.434 0.775 NaN                 
+8   0.001 0.725 0.746 0.488 NaN                 
+
+Complex number 10
+0   0.645 0.108 0.351 0.349 NaN                 
+1   0.936 0.684 0.226 0.744 NaN                 
+2   0.934 0.742 0.974 0.499 NaN                 
+3   0.488 0.394 0.902 0.590 NaN                 
+4   0.147 0.853 0.308 0.033 NaN                 
+5   0.978 0.287 0.537 0.420 NaN                 
+6   0.600 0.338 0.064 0.227 NaN                 
+7   0.444 0.992 0.798 0.020 NaN                 
+8   0.044 0.754 0.328 0.549 NaN                 
+
+Complex number 11
+0   0.218 0.645 0.758 0.880 NaN                 
+1   0.635 0.191 0.240 0.039 NaN                 
+2   0.194 0.787 0.109 0.306 NaN                 
+3   0.991 0.348 0.398 0.563 NaN                 
+4   0.331 0.792 0.723 0.452 NaN                 
+5   0.617 0.202 0.717 0.841 NaN                 
+6   0.954 0.547 0.557 0.387 NaN                 
+7   0.789 0.666 0.074 0.613 NaN                 
+8   0.053 0.213 0.129 0.713 NaN                 
+
+
+Best: NaN
+Pars: 0.675268  0.973350  0.473595  0.324781  
+
+Timestamp 10:29:58.598
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:29:59.517
+Iter: 216
+Best: NaN
+Pars: 0.375377  0.728653  0.838557  0.565587  
+Timestamp 10:29:59.517
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:00.448
+Iter: 324
+Best: NaN
+Pars: 0.847319  0.837022  0.379599  0.664164  
+Timestamp 10:30:00.449
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:01.375
+Iter: 432
+Best: NaN
+Pars: 0.648782  0.172765  0.486536  0.194758  
+Timestamp 10:30:01.376
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:02.203
+Iter: 540
+Best: NaN
+Pars: 0.530350  0.348105  0.307248  0.579174  
+Timestamp 10:30:02.204
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:02.974
+Iter: 648
+Best: NaN
+Pars: 0.299710  0.526761  0.000745  0.993770  
+Timestamp 10:30:02.975
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:03.783
+Iter: 756
+Best: NaN
+Pars: 0.921381  0.847196  0.863469  0.107494  
+Timestamp 10:30:03.783
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:04.584
+Iter: 864
+Best: NaN
+Pars: 0.611052  0.271412  0.927358  0.881815  
+Timestamp 10:30:04.585
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:05.465
+Iter: 972
+Best: NaN
+Pars: 0.611052  0.271412  0.927358  0.881815  
+Timestamp 10:30:05.465
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:06.284
+Iter: 1080
+Best: NaN
+Pars: 0.629760  0.962195  0.971887  0.232198  
+Timestamp 10:30:06.285
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:07.111
+Iter: 1188
+Best: NaN
+Pars: 0.828715  0.335491  0.107964  0.170831  
+Timestamp 10:30:07.112
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:07.938
+Iter: 1296
+Best: NaN
+Pars: 0.828715  0.335491  0.107964  0.170831  
+Timestamp 10:30:07.939
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:08.737
+Iter: 1404
+Best: NaN
+Pars: 0.980309  0.977922  0.389283  0.802008  
+Timestamp 10:30:08.738
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:09.524
+Iter: 1512
+Best: NaN
+Pars: 0.876560  0.881526  0.246926  0.558595  
+Timestamp 10:30:09.525
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:10.337
+Iter: 1620
+Best: NaN
+Pars: 0.876560  0.881526  0.246926  0.558595  
+Timestamp 10:30:10.337
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:11.13
+Iter: 1728
+Best: NaN
+Pars: 0.324008  0.127719  0.290269  0.363349  
+Timestamp 10:30:11.13
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:11.909
+Iter: 1836
+Best: NaN
+Pars: 0.802345  0.834055  0.835661  0.864941  
+Timestamp 10:30:11.909
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:12.717
+Iter: 1944
+Best: NaN
+Pars: 0.769441  0.620509  0.789140  0.883769  
+Timestamp 10:30:12.718
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:13.558
+Iter: 2052
+Best: NaN
+Pars: 0.559532  0.258605  0.527042  0.347857  
+Timestamp 10:30:13.559
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:14.344
+Iter: 2160
+Best: NaN
+Pars: 0.117811  0.591522  0.428791  0.841318  
+Timestamp 10:30:14.345
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:15.181
+Iter: 2268
+Best: NaN
+Pars: 0.117811  0.591522  0.428791  0.841318  
+Timestamp 10:30:15.181
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:16.025
+Iter: 2376
+Best: NaN
+Pars: 0.117811  0.591522  0.428791  0.841318  
+Timestamp 10:30:16.026
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:16.885
+Iter: 2484
+Best: NaN
+Pars: 0.065924  0.593301  0.486879  0.605963  
+Timestamp 10:30:16.886
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:17.719
+Iter: 2592
+Best: NaN
+Pars: 0.173142  0.308924  0.039614  0.692485  
+Timestamp 10:30:17.719
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:18.493
+Iter: 2700
+Best: NaN
+Pars: 0.696279  0.753527  0.762360  0.209002  
+Timestamp 10:30:18.494
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:19.33
+Iter: 2808
+Best: NaN
+Pars: 0.696279  0.753527  0.762360  0.209002  
+Timestamp 10:30:19.331
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:20.193
+Iter: 2916
+Best: NaN
+Pars: 0.696279  0.753527  0.762360  0.209002  
+Timestamp 10:30:20.194
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:20.982
+Iter: 3024
+Best: NaN
+Pars: 0.452768  0.519201  0.997667  0.528903  
+Timestamp 10:30:20.982
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:21.794
+Iter: 3132
+Best: NaN
+Pars: 0.239769  0.721589  0.984790  0.445976  
+Timestamp 10:30:21.795
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:22.603
+Iter: 3240
+Best: NaN
+Pars: 0.367125  0.121325  0.700914  0.885503  
+Timestamp 10:30:22.604
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:23.412
+Iter: 3348
+Best: NaN
+Pars: 0.766216  0.843234  0.862837  0.331171  
+Timestamp 10:30:23.413
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:24.188
+Iter: 3456
+Best: NaN
+Pars: 0.171912  0.821093  0.842544  0.461400  
+Timestamp 10:30:24.19
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:24.992
+Iter: 3564
+Best: NaN
+Pars: 0.171912  0.821093  0.842544  0.461400  
+Timestamp 10:30:24.993
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:25.823
+Iter: 3672
+Best: NaN
+Pars: 0.693829  0.965207  0.314683  0.981357  
+Timestamp 10:30:25.823
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:26.775
+Iter: 3780
+Best: NaN
+Pars: 0.555782  0.574673  0.116249  0.253206  
+Timestamp 10:30:26.775
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:27.566
+Iter: 3888
+Best: NaN
+Pars: 0.023992  0.536231  0.160600  0.519100  
+Timestamp 10:30:27.566
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:28.535
+Iter: 3996
+Best: NaN
+Pars: 0.834252  0.658476  0.868798  0.149614  
+Timestamp 10:30:28.536
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:29.354
+Iter: 4104
+Best: NaN
+Pars: 0.072644  0.987596  0.830420  0.876291  
+Timestamp 10:30:29.355
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:30.172
+Iter: 4212
+Best: NaN
+Pars: 0.978593  0.614913  0.939443  0.580702  
+Timestamp 10:30:30.173
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:31.017
+Iter: 4320
+Best: NaN
+Pars: 0.171787  0.464115  0.194854  0.161163  
+Timestamp 10:30:31.018
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:31.834
+Iter: 4428
+Best: NaN
+Pars: 0.836756  0.275633  0.880916  0.849877  
+Timestamp 10:30:31.835
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:32.645
+Iter: 4536
+Best: NaN
+Pars: 0.044939  0.707421  0.187863  0.397718  
+Timestamp 10:30:32.646
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:33.423
+Iter: 4644
+Best: NaN
+Pars: 0.820548  0.436865  0.035650  0.599454  
+Timestamp 10:30:33.424
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:34.249
+Iter: 4752
+Best: NaN
+Pars: 0.247904  0.658896  0.457227  0.769567  
+Timestamp 10:30:34.25
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:35.025
+Iter: 4860
+Best: NaN
+Pars: 0.736238  0.132065  0.958057  0.335433  
+Timestamp 10:30:35.026
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:35.831
+Iter: 4968
+Best: NaN
+Pars: 0.518463  0.235646  0.546051  0.089352  
+Timestamp 10:30:35.832
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:36.664
+Iter: 5076
+Best: NaN
+Pars: 0.562869  0.604547  0.040513  0.065590  
+Timestamp 10:30:36.665
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:37.491
+Iter: 5184
+Best: NaN
+Pars: 0.228711  0.376983  0.086778  0.768513  
+Timestamp 10:30:37.492
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:38.3
+Iter: 5292
+Best: NaN
+Pars: 0.428902  0.509116  0.915041  0.395173  
+Timestamp 10:30:38.301
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:39.103
+Iter: 5400
+Best: NaN
+Pars: 0.388931  0.587413  0.869715  0.719497  
+Timestamp 10:30:39.103
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:39.87
+Iter: 5508
+Best: NaN
+Pars: 0.667901  0.808678  0.856951  0.383440  
+Timestamp 10:30:39.87
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:40.665
+Iter: 5616
+Best: NaN
+Pars: 0.724062  0.492391  0.536195  0.827513  
+Timestamp 10:30:40.666
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:41.463
+Iter: 5724
+Best: NaN
+Pars: 0.724062  0.492391  0.536195  0.827513  
+Timestamp 10:30:41.464
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:42.268
+Iter: 5832
+Best: NaN
+Pars: 0.579151  0.623769  0.882404  0.877647  
+Timestamp 10:30:42.269
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:43.037
+Iter: 5940
+Best: NaN
+Pars: 0.703165  0.102811  0.489424  0.089218  
+Timestamp 10:30:43.038
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:43.827
+Iter: 6048
+Best: NaN
+Pars: 0.251045  0.421704  0.456392  0.055764  
+Timestamp 10:30:43.827
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:44.638
+Iter: 6156
+Best: NaN
+Pars: 0.251045  0.421704  0.456392  0.055764  
+Timestamp 10:30:44.639
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:45.437
+Iter: 6264
+Best: NaN
+Pars: 0.558295  0.679146  0.767892  0.315272  
+Timestamp 10:30:45.438
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:46.192
+Iter: 6372
+Best: NaN
+Pars: 0.558295  0.679146  0.767892  0.315272  
+Timestamp 10:30:46.193
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:46.993
+Iter: 6480
+Best: NaN
+Pars: 0.883870  0.882977  0.856746  0.204072  
+Timestamp 10:30:46.994
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:47.81
+Iter: 6588
+Best: NaN
+Pars: 0.850839  0.390840  0.586425  0.114476  
+Timestamp 10:30:47.811
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:48.606
+Iter: 6696
+Best: NaN
+Pars: 0.230216  0.740920  0.382628  0.725320  
+Timestamp 10:30:48.607
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:49.357
+Iter: 6804
+Best: NaN
+Pars: 0.619603  0.131926  0.335142  0.707739  
+Timestamp 10:30:49.358
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:50.162
+Iter: 6912
+Best: NaN
+Pars: 0.935954  0.728540  0.520382  0.418564  
+Timestamp 10:30:50.163
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:50.954
+Iter: 7020
+Best: NaN
+Pars: 0.935954  0.728540  0.520382  0.418564  
+Timestamp 10:30:50.955
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:51.698
+Iter: 7128
+Best: NaN
+Pars: 0.935954  0.728540  0.520382  0.418564  
+Timestamp 10:30:51.699
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:52.455
+Iter: 7236
+Best: NaN
+Pars: 0.499020  0.738838  0.817932  0.562560  
+Timestamp 10:30:52.455
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:53.264
+Iter: 7344
+Best: NaN
+Pars: 0.445934  0.812356  0.361343  0.585814  
+Timestamp 10:30:53.264
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:54.075
+Iter: 7452
+Best: NaN
+Pars: 0.805411  0.933125  0.153749  0.680932  
+Timestamp 10:30:54.076
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:54.836
+Iter: 7560
+Best: NaN
+Pars: 0.157119  0.416411  0.428106  0.083937  
+Timestamp 10:30:54.836
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:55.65
+Iter: 7668
+Best: NaN
+Pars: 0.941946  0.661229  0.868879  0.531896  
+Timestamp 10:30:55.651
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:56.443
+Iter: 7776
+Best: NaN
+Pars: 0.941946  0.661229  0.868879  0.531896  
+Timestamp 10:30:56.443
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:57.237
+Iter: 7884
+Best: NaN
+Pars: 0.573243  0.355431  0.559178  0.652882  
+Timestamp 10:30:57.238
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:58.076
+Iter: 7992
+Best: NaN
+Pars: 0.573243  0.355431  0.559178  0.652882  
+Timestamp 10:30:58.077
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:58.933
+Iter: 8100
+Best: NaN
+Pars: 0.311994  0.263102  0.554036  0.076283  
+Timestamp 10:30:58.934
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:30:59.752
+Iter: 8208
+Best: NaN
+Pars: 0.466588  0.405683  0.651305  0.828652  
+Timestamp 10:30:59.753
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:00.547
+Iter: 8316
+Best: NaN
+Pars: 0.134738  0.432164  0.192018  0.285574  
+Timestamp 10:31:00.548
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:01.336
+Iter: 8424
+Best: NaN
+Pars: 0.134738  0.432164  0.192018  0.285574  
+Timestamp 10:31:01.337
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:02.153
+Iter: 8532
+Best: NaN
+Pars: 0.134738  0.432164  0.192018  0.285574  
+Timestamp 10:31:02.154
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:02.945
+Iter: 8640
+Best: NaN
+Pars: 0.110850  0.165242  0.639326  0.770190  
+Timestamp 10:31:02.946
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:03.726
+Iter: 8748
+Best: NaN
+Pars: 0.929273  0.300514  0.318928  0.561572  
+Timestamp 10:31:03.727
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:04.518
+Iter: 8856
+Best: NaN
+Pars: 0.764281  0.634138  0.638426  0.851930  
+Timestamp 10:31:04.519
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:05.32
+Iter: 8964
+Best: NaN
+Pars: 0.764281  0.634138  0.638426  0.851930  
+Timestamp 10:31:05.32
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:06.113
+Iter: 9072
+Best: NaN
+Pars: 0.517724  0.843111  0.819053  0.539049  
+Timestamp 10:31:06.113
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:06.857
+Iter: 9180
+Best: NaN
+Pars: 0.517724  0.843111  0.819053  0.539049  
+Timestamp 10:31:06.857
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:07.648
+Iter: 9288
+Best: NaN
+Pars: 0.119067  0.510312  0.047857  0.624128  
+Timestamp 10:31:07.648
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:08.481
+Iter: 9396
+Best: NaN
+Pars: 0.724844  0.974048  0.809072  0.768647  
+Timestamp 10:31:08.482
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:09.285
+Iter: 9504
+Best: NaN
+Pars: 0.724844  0.974048  0.809072  0.768647  
+Timestamp 10:31:09.285
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:10.048
+Iter: 9612
+Best: NaN
+Pars: 0.724844  0.974048  0.809072  0.768647  
+Timestamp 10:31:10.049
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:10.839
+Iter: 9720
+Best: NaN
+Pars: 0.972998  0.600205  0.004506  0.487896  
+Timestamp 10:31:10.84
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:11.643
+Iter: 9828
+Best: NaN
+Pars: 0.972998  0.600205  0.004506  0.487896  
+Timestamp 10:31:11.644
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:12.423
+Iter: 9936
+Best: NaN
+Pars: 0.972998  0.600205  0.004506  0.487896  
+Timestamp 10:31:12.424
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:13.177
+Iter: 10044
+Best: NaN
+Pars: 0.972998  0.600205  0.004506  0.487896  
+Timestamp 10:31:13.178
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:13.983
+Iter: 10152
+Best: NaN
+Pars: 0.209932  0.577547  0.449555  0.144466  
+Timestamp 10:31:13.984
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:14.786
+Iter: 10260
+Best: NaN
+Pars: 0.209932  0.577547  0.449555  0.144466  
+Timestamp 10:31:14.786
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:15.539
+Iter: 10368
+Best: NaN
+Pars: 0.279091  0.200857  0.035002  0.838464  
+Timestamp 10:31:15.54
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:16.319
+Iter: 10476
+Best: NaN
+Pars: 0.279091  0.200857  0.035002  0.838464  
+Timestamp 10:31:16.319
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:17.127
+Iter: 10584
+Best: NaN
+Pars: 0.370426  0.039326  0.112434  0.760563  
+Timestamp 10:31:17.128
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:17.929
+Iter: 10692
+Best: NaN
+Pars: 0.990404  0.271203  0.579243  0.543627  
+Timestamp 10:31:17.929
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:18.687
+Iter: 10800
+Best: NaN
+Pars: 0.367388  0.489796  0.647673  0.395449  
+Timestamp 10:31:18.688
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:19.463
+Iter: 10908
+Best: NaN
+Pars: 0.876916  0.441387  0.681929  0.633411  
+Timestamp 10:31:19.464
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:20.263
+Iter: 11016
+Best: NaN
+Pars: 0.876916  0.441387  0.681929  0.633411  
+Timestamp 10:31:20.264
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:21.069
+Iter: 11124
+Best: NaN
+Pars: 0.067903  0.866208  0.165979  0.867108  
+Timestamp 10:31:21.069
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:21.818
+Iter: 11232
+Best: NaN
+Pars: 0.067903  0.866208  0.165979  0.867108  
+Timestamp 10:31:21.819
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:22.602
+Iter: 11340
+Best: NaN
+Pars: 0.847960  0.947537  0.877733  0.192950  
+Timestamp 10:31:22.603
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:23.414
+Iter: 11448
+Best: NaN
+Pars: 0.250530  0.527209  0.101007  0.955952  
+Timestamp 10:31:23.415
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:24.224
+Iter: 11556
+Best: NaN
+Pars: 0.250530  0.527209  0.101007  0.955952  
+Timestamp 10:31:24.224
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:24.985
+Iter: 11664
+Best: NaN
+Pars: 0.250530  0.527209  0.101007  0.955952  
+Timestamp 10:31:24.986
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:25.796
+Iter: 11772
+Best: NaN
+Pars: 0.508599  0.470748  0.492566  0.409154  
+Timestamp 10:31:25.796
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:26.611
+Iter: 11880
+Best: NaN
+Pars: 0.508599  0.470748  0.492566  0.409154  
+Timestamp 10:31:26.612
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:27.402
+Iter: 11988
+Best: NaN
+Pars: 0.846455  0.129809  0.633453  0.309895  
+Timestamp 10:31:27.403
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:28.158
+Iter: 12096
+Best: NaN
+Pars: 0.846455  0.129809  0.633453  0.309895  
+Timestamp 10:31:28.159
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:28.949
+Iter: 12204
+Best: NaN
+Pars: 0.011870  0.442737  0.360968  0.690402  
+Timestamp 10:31:28.95
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:29.757
+Iter: 12312
+Best: NaN
+Pars: 0.011870  0.442737  0.360968  0.690402  
+Timestamp 10:31:29.758
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:30.545
+Iter: 12420
+Best: NaN
+Pars: 0.828496  0.300846  0.652024  0.043190  
+Timestamp 10:31:30.546
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:31.296
+Iter: 12528
+Best: NaN
+Pars: 0.830113  0.447946  0.711147  0.012320  
+Timestamp 10:31:31.297
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:32.099
+Iter: 12636
+Best: NaN
+Pars: 0.334757  0.871259  0.274629  0.146262  
+Timestamp 10:31:32.1
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:32.927
+Iter: 12744
+Best: NaN
+Pars: 0.476120  0.876808  0.356505  0.062693  
+Timestamp 10:31:32.928
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:33.725
+Iter: 12852
+Best: NaN
+Pars: 0.476120  0.876808  0.356505  0.062693  
+Timestamp 10:31:33.726
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:34.478
+Iter: 12960
+Best: NaN
+Pars: 0.476120  0.876808  0.356505  0.062693  
+Timestamp 10:31:34.479
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:35.254
+Iter: 13068
+Best: NaN
+Pars: 0.313376  0.675869  0.034129  0.770079  
+Timestamp 10:31:35.254
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:36.062
+Iter: 13176
+Best: NaN
+Pars: 0.942817  0.793061  0.327543  0.632162  
+Timestamp 10:31:36.063
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:36.854
+Iter: 13284
+Best: NaN
+Pars: 0.365062  0.465802  0.039347  0.740951  
+Timestamp 10:31:36.854
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:37.625
+Iter: 13392
+Best: NaN
+Pars: 0.302069  0.110056  0.626455  0.057311  
+Timestamp 10:31:37.626
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:38.439
+Iter: 13500
+Best: NaN
+Pars: 0.302069  0.110056  0.626455  0.057311  
+Timestamp 10:31:38.44
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:39.26
+Iter: 13608
+Best: NaN
+Pars: 0.912786  0.861377  0.467326  0.598931  
+Timestamp 10:31:39.26
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:40.068
+Iter: 13716
+Best: NaN
+Pars: 0.033865  0.143506  0.725436  0.353956  
+Timestamp 10:31:40.068
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:40.857
+Iter: 13824
+Best: NaN
+Pars: 0.091630  0.530994  0.147206  0.398113  
+Timestamp 10:31:40.858
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:41.663
+Iter: 13932
+Best: NaN
+Pars: 0.179511  0.414094  0.428351  0.356849  
+Timestamp 10:31:41.664
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:42.464
+Iter: 14040
+Best: NaN
+Pars: 0.168804  0.780459  0.380370  0.733465  
+Timestamp 10:31:42.465
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:43.232
+Iter: 14148
+Best: NaN
+Pars: 0.168804  0.780459  0.380370  0.733465  
+Timestamp 10:31:43.233
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:44.038
+Iter: 14256
+Best: NaN
+Pars: 0.776619  0.805961  0.673164  0.504491  
+Timestamp 10:31:44.038
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:44.833
+Iter: 14364
+Best: NaN
+Pars: 0.259522  0.435258  0.499707  0.308014  
+Timestamp 10:31:44.833
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:45.612
+Iter: 14472
+Best: NaN
+Pars: 0.259522  0.435258  0.499707  0.308014  
+Timestamp 10:31:45.612
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:46.393
+Iter: 14580
+Best: NaN
+Pars: 0.259522  0.435258  0.499707  0.308014  
+Timestamp 10:31:46.394
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:47.196
+Iter: 14688
+Best: NaN
+Pars: 0.153467  0.690969  0.349411  0.435368  
+Timestamp 10:31:47.197
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:47.997
+Iter: 14796
+Best: NaN
+Pars: 0.397233  0.647002  0.588094  0.516275  
+Timestamp 10:31:47.998
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:48.808
+Iter: 14904
+Best: NaN
+Pars: 0.397233  0.647002  0.588094  0.516275  
+Timestamp 10:31:48.809
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:49.556
+Iter: 15012
+Best: NaN
+Pars: 0.397233  0.647002  0.588094  0.516275  
+Timestamp 10:31:49.557
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:50.378
+Iter: 15120
+Best: NaN
+Pars: 0.302400  0.789247  0.912445  0.424670  
+Timestamp 10:31:50.379
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:51.205
+Iter: 15228
+Best: NaN
+Pars: 0.595590  0.787822  0.229608  0.796151  
+Timestamp 10:31:51.206
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:51.991
+Iter: 15336
+Best: NaN
+Pars: 0.595590  0.787822  0.229608  0.796151  
+Timestamp 10:31:51.992
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:52.786
+Iter: 15444
+Best: NaN
+Pars: 0.169546  0.506285  0.728553  0.448240  
+Timestamp 10:31:52.787
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:53.601
+Iter: 15552
+Best: NaN
+Pars: 0.169546  0.506285  0.728553  0.448240  
+Timestamp 10:31:53.602
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:54.391
+Iter: 15660
+Best: NaN
+Pars: 0.084866  0.611072  0.193659  0.098627  
+Timestamp 10:31:54.392
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:55.146
+Iter: 15768
+Best: NaN
+Pars: 0.184624  0.628447  0.371260  0.645967  
+Timestamp 10:31:55.146
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:55.946
+Iter: 15876
+Best: NaN
+Pars: 0.736755  0.979122  0.484375  0.327714  
+Timestamp 10:31:55.947
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:56.752
+Iter: 15984
+Best: NaN
+Pars: 0.673145  0.064210  0.736614  0.293427  
+Timestamp 10:31:56.753
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:57.534
+Iter: 16092
+Best: NaN
+Pars: 0.053870  0.982590  0.870457  0.290789  
+Timestamp 10:31:57.535
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:58.335
+Iter: 16200
+Best: NaN
+Pars: 0.548297  0.281772  0.642818  0.251771  
+Timestamp 10:31:58.336
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:59.159
+Iter: 16308
+Best: NaN
+Pars: 0.548297  0.281772  0.642818  0.251771  
+Timestamp 10:31:59.16
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:31:59.969
+Iter: 16416
+Best: NaN
+Pars: 0.795205  0.339832  0.610194  0.919518  
+Timestamp 10:31:59.969
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:00.822
+Iter: 16524
+Best: NaN
+Pars: 0.041377  0.738716  0.525468  0.144298  
+Timestamp 10:32:00.822
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:01.673
+Iter: 16632
+Best: NaN
+Pars: 0.010316  0.769259  0.752072  0.830374  
+Timestamp 10:32:01.674
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:02.578
+Iter: 16740
+Best: NaN
+Pars: 0.795564  0.307850  0.080747  0.055248  
+Timestamp 10:32:02.578
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:03.433
+Iter: 16848
+Best: NaN
+Pars: 0.118221  0.013222  0.400989  0.688718  
+Timestamp 10:32:03.434
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:04.185
+Iter: 16956
+Best: NaN
+Pars: 0.118221  0.013222  0.400989  0.688718  
+Timestamp 10:32:04.186
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:04.977
+Iter: 17064
+Best: NaN
+Pars: 0.717175  0.661359  0.871198  0.156755  
+Timestamp 10:32:04.977
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:05.772
+Iter: 17172
+Best: NaN
+Pars: 0.255687  0.051185  0.202656  0.722817  
+Timestamp 10:32:05.773
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:06.585
+Iter: 17280
+Best: NaN
+Pars: 0.255687  0.051185  0.202656  0.722817  
+Timestamp 10:32:06.586
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:07.344
+Iter: 17388
+Best: NaN
+Pars: 0.050465  0.312430  0.669257  0.690853  
+Timestamp 10:32:07.345
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:08.169
+Iter: 17496
+Best: NaN
+Pars: 0.620501  0.316951  0.222355  0.917137  
+Timestamp 10:32:08.17
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:08.986
+Iter: 17604
+Best: NaN
+Pars: 0.620501  0.316951  0.222355  0.917137  
+Timestamp 10:32:08.987
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:09.785
+Iter: 17712
+Best: NaN
+Pars: 0.469107  0.455531  0.732821  0.231611  
+Timestamp 10:32:09.786
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:10.563
+Iter: 17820
+Best: NaN
+Pars: 0.608163  0.321767  0.672357  0.919987  
+Timestamp 10:32:10.564
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:11.371
+Iter: 17928
+Best: NaN
+Pars: 0.254291  0.003785  0.328274  0.427146  
+Timestamp 10:32:11.372
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:12.255
+Iter: 18036
+Best: NaN
+Pars: 0.254291  0.003785  0.328274  0.427146  
+Timestamp 10:32:12.256
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:13.063
+Iter: 18144
+Best: NaN
+Pars: 0.254291  0.003785  0.328274  0.427146  
+Timestamp 10:32:13.063
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:13.871
+Iter: 18252
+Best: NaN
+Pars: 0.848917  0.114619  0.796686  0.075132  
+Timestamp 10:32:13.871
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:14.686
+Iter: 18360
+Best: NaN
+Pars: 0.751085  0.602256  0.350272  0.952669  
+Timestamp 10:32:14.687
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:15.495
+Iter: 18468
+Best: NaN
+Pars: 0.268172  0.423065  0.981032  0.461859  
+Timestamp 10:32:15.495
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:16.249
+Iter: 18576
+Best: NaN
+Pars: 0.108479  0.796596  0.844883  0.466711  
+Timestamp 10:32:16.249
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:17.035
+Iter: 18684
+Best: NaN
+Pars: 0.775496  0.321801  0.970696  0.591083  
+Timestamp 10:32:17.035
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:17.832
+Iter: 18792
+Best: NaN
+Pars: 0.552683  0.773253  0.971715  0.029951  
+Timestamp 10:32:17.833
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:18.646
+Iter: 18900
+Best: NaN
+Pars: 0.552683  0.773253  0.971715  0.029951  
+Timestamp 10:32:18.647
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:19.396
+Iter: 19008
+Best: NaN
+Pars: 0.552683  0.773253  0.971715  0.029951  
+Timestamp 10:32:19.396
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:20.214
+Iter: 19116
+Best: NaN
+Pars: 0.741205  0.124360  0.004217  0.117639  
+Timestamp 10:32:20.215
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:21.068
+Iter: 19224
+Best: NaN
+Pars: 0.719541  0.277687  0.434167  0.163106  
+Timestamp 10:32:21.069
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:21.973
+Iter: 19332
+Best: NaN
+Pars: 0.878791  0.985728  0.581043  0.024810  
+Timestamp 10:32:21.974
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:22.852
+Iter: 19440
+Best: NaN
+Pars: 0.644150  0.415907  0.570958  0.603351  
+Timestamp 10:32:22.852
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:23.784
+Iter: 19548
+Best: NaN
+Pars: 0.644150  0.415907  0.570958  0.603351  
+Timestamp 10:32:23.785
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:24.699
+Iter: 19656
+Best: NaN
+Pars: 0.889036  0.485899  0.457406  0.708072  
+Timestamp 10:32:24.699
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:25.456
+Iter: 19764
+Best: NaN
+Pars: 0.296157  0.251560  0.342575  0.447490  
+Timestamp 10:32:25.457
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:26.282
+Iter: 19872
+Best: NaN
+Pars: 0.775315  0.007076  0.604202  0.359293  
+Timestamp 10:32:26.282
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:27.079
+Iter: 19980
+Best: NaN
+Pars: 0.524752  0.903163  0.789649  0.715459  
+Timestamp 10:32:27.08
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:27.888
+Iter: 20088
+Best: NaN
+Pars: 0.696554  0.222170  0.048239  0.565346  
+Timestamp 10:32:27.889
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:28.669
+Iter: 20196
+Best: NaN
+Pars: 0.970758  0.096176  0.341266  0.326020  
+Timestamp 10:32:28.67
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:29.488
+Iter: 20304
+Best: NaN
+Pars: 0.970758  0.096176  0.341266  0.326020  
+Timestamp 10:32:29.488
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:30.281
+Iter: 20412
+Best: NaN
+Pars: 0.970758  0.096176  0.341266  0.326020  
+Timestamp 10:32:30.282
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:31.069
+Iter: 20520
+Best: NaN
+Pars: 0.214048  0.996426  0.422771  0.331978  
+Timestamp 10:32:31.07
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:31.824
+Iter: 20628
+Best: NaN
+Pars: 0.023654  0.429646  0.982459  0.951447  
+Timestamp 10:32:31.825
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:32.633
+Iter: 20736
+Best: NaN
+Pars: 0.505951  0.902914  0.899387  0.774995  
+Timestamp 10:32:32.634
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:33.412
+Iter: 20844
+Best: NaN
+Pars: 0.895009  0.729222  0.339662  0.559663  
+Timestamp 10:32:33.413
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:34.172
+Iter: 20952
+Best: NaN
+Pars: 0.050983  0.904887  0.072219  0.525780  
+Timestamp 10:32:34.173
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:34.976
+Iter: 21060
+Best: NaN
+Pars: 0.944676  0.685950  0.059222  0.329714  
+Timestamp 10:32:34.977
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:35.802
+Iter: 21168
+Best: NaN
+Pars: 0.474274  0.656339  0.818653  0.938406  
+Timestamp 10:32:35.802
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:36.574
+Iter: 21276
+Best: NaN
+Pars: 0.013722  0.896214  0.303715  0.771818  
+Timestamp 10:32:36.575
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:37.328
+Iter: 21384
+Best: NaN
+Pars: 0.136766  0.375244  0.143330  0.119548  
+Timestamp 10:32:37.328
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:38.105
+Iter: 21492
+Best: NaN
+Pars: 0.873647  0.359165  0.585844  0.903203  
+Timestamp 10:32:38.106
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:38.908
+Iter: 21600
+Best: NaN
+Pars: 0.873647  0.359165  0.585844  0.903203  
+Timestamp 10:32:38.909
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:39.726
+Iter: 21708
+Best: NaN
+Pars: 0.270035  0.928739  0.183303  0.031909  
+Timestamp 10:32:39.727
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:40.488
+Iter: 21816
+Best: NaN
+Pars: 0.170449  0.934374  0.110575  0.352534  
+Timestamp 10:32:40.489
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:41.284
+Iter: 21924
+Best: NaN
+Pars: 0.197902  0.038052  0.609284  0.295782  
+Timestamp 10:32:41.284
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:42.109
+Iter: 22032
+Best: NaN
+Pars: 0.197902  0.038052  0.609284  0.295782  
+Timestamp 10:32:42.11
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:42.92
+Iter: 22140
+Best: NaN
+Pars: 0.197902  0.038052  0.609284  0.295782  
+Timestamp 10:32:42.921
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:43.683
+Iter: 22248
+Best: NaN
+Pars: 0.617953  0.453698  0.338385  0.051071  
+Timestamp 10:32:43.683
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:44.463
+Iter: 22356
+Best: NaN
+Pars: 0.144467  0.185999  0.659126  0.795898  
+Timestamp 10:32:44.464
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:45.251
+Iter: 22464
+Best: NaN
+Pars: 0.630843  0.085239  0.481576  0.493243  
+Timestamp 10:32:45.251
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:46.058
+Iter: 22572
+Best: NaN
+Pars: 0.630843  0.085239  0.481576  0.493243  
+Timestamp 10:32:46.058
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:46.808
+Iter: 22680
+Best: NaN
+Pars: 0.107762  0.163697  0.866025  0.690869  
+Timestamp 10:32:46.809
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:47.585
+Iter: 22788
+Best: NaN
+Pars: 0.788337  0.246999  0.392836  0.769084  
+Timestamp 10:32:47.586
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:48.41
+Iter: 22896
+Best: NaN
+Pars: 0.788337  0.246999  0.392836  0.769084  
+Timestamp 10:32:48.411
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:49.163
+Iter: 23004
+Best: NaN
+Pars: 0.093207  0.319280  0.705748  0.253012  
+Timestamp 10:32:49.164
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:49.96
+Iter: 23112
+Best: NaN
+Pars: 0.431771  0.895656  0.391971  0.721946  
+Timestamp 10:32:49.961
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:50.744
+Iter: 23220
+Best: NaN
+Pars: 0.160572  0.214617  0.889118  0.262660  
+Timestamp 10:32:50.744
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:51.558
+Iter: 23328
+Best: NaN
+Pars: 0.366756  0.286648  0.067099  0.487044  
+Timestamp 10:32:51.558
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:52.311
+Iter: 23436
+Best: NaN
+Pars: 0.993726  0.214698  0.501384  0.378416  
+Timestamp 10:32:52.311
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:53.101
+Iter: 23544
+Best: NaN
+Pars: 0.027628  0.992325  0.381687  0.504293  
+Timestamp 10:32:53.102
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:53.911
+Iter: 23652
+Best: NaN
+Pars: 0.431407  0.464513  0.533293  0.256313  
+Timestamp 10:32:53.912
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:54.739
+Iter: 23760
+Best: NaN
+Pars: 0.431407  0.464513  0.533293  0.256313  
+Timestamp 10:32:54.74
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:55.486
+Iter: 23868
+Best: NaN
+Pars: 0.402341  0.631004  0.311758  0.184470  
+Timestamp 10:32:55.487
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:56.264
+Iter: 23976
+Best: NaN
+Pars: 0.402341  0.631004  0.311758  0.184470  
+Timestamp 10:32:56.265
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:57.071
+Iter: 24084
+Best: NaN
+Pars: 0.570825  0.319114  0.561633  0.479223  
+Timestamp 10:32:57.072
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:57.868
+Iter: 24192
+Best: NaN
+Pars: 0.546455  0.432316  0.192239  0.679278  
+Timestamp 10:32:57.869
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:58.62
+Iter: 24300
+Best: NaN
+Pars: 0.546455  0.432316  0.192239  0.679278  
+Timestamp 10:32:58.621
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:32:59.431
+Iter: 24408
+Best: NaN
+Pars: 0.546455  0.432316  0.192239  0.679278  
+Timestamp 10:32:59.432
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:00.279
+Iter: 24516
+Best: NaN
+Pars: 0.440382  0.550575  0.130548  0.678440  
+Timestamp 10:33:00.28
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:01.101
+Iter: 24624
+Best: NaN
+Pars: 0.724185  0.364722  0.505591  0.264478  
+Timestamp 10:33:01.102
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:01.933
+Iter: 24732
+Best: NaN
+Pars: 0.724185  0.364722  0.505591  0.264478  
+Timestamp 10:33:01.933
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:02.722
+Iter: 24840
+Best: NaN
+Pars: 0.960067  0.193794  0.372207  0.109178  
+Timestamp 10:33:02.723
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:03.527
+Iter: 24948
+Best: NaN
+Pars: 0.523546  0.921426  0.103876  0.461222  
+Timestamp 10:33:03.528
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:04.366
+Iter: 25056
+Best: NaN
+Pars: 0.523546  0.921426  0.103876  0.461222  
+Timestamp 10:33:04.366
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:05.128
+Iter: 25164
+Best: NaN
+Pars: 0.828601  0.698320  0.326869  0.575183  
+Timestamp 10:33:05.128
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:05.94
+Iter: 25272
+Best: NaN
+Pars: 0.828601  0.698320  0.326869  0.575183  
+Timestamp 10:33:05.941
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:06.75
+Iter: 25380
+Best: NaN
+Pars: 0.783436  0.415173  0.809406  0.204919  
+Timestamp 10:33:06.751
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:07.506
+Iter: 25488
+Best: NaN
+Pars: 0.738100  0.262162  0.556861  0.589161  
+Timestamp 10:33:07.506
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:08.349
+Iter: 25596
+Best: NaN
+Pars: 0.186142  0.804288  0.230842  0.108403  
+Timestamp 10:33:08.35
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:09.166
+Iter: 25704
+Best: NaN
+Pars: 0.401920  0.649116  0.334990  0.391531  
+Timestamp 10:33:09.167
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:09.971
+Iter: 25812
+Best: NaN
+Pars: 0.133475  0.711456  0.610682  0.015731  
+Timestamp 10:33:09.971
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:10.754
+Iter: 25920
+Best: NaN
+Pars: 0.133475  0.711456  0.610682  0.015731  
+Timestamp 10:33:10.755
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:11.56
+Iter: 26028
+Best: NaN
+Pars: 0.133475  0.711456  0.610682  0.015731  
+Timestamp 10:33:11.561
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:12.349
+Iter: 26136
+Best: NaN
+Pars: 0.601435  0.617383  0.297969  0.395384  
+Timestamp 10:33:12.35
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:13.158
+Iter: 26244
+Best: NaN
+Pars: 0.319816  0.182418  0.243915  0.843223  
+Timestamp 10:33:13.159
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:13.91
+Iter: 26352
+Best: NaN
+Pars: 0.650983  0.197070  0.791678  0.171026  
+Timestamp 10:33:13.91
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:14.711
+Iter: 26460
+Best: NaN
+Pars: 0.960077  0.097770  0.201989  0.279109  
+Timestamp 10:33:14.712
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:15.527
+Iter: 26568
+Best: NaN
+Pars: 0.960077  0.097770  0.201989  0.279109  
+Timestamp 10:33:15.528
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:16.341
+Iter: 26676
+Best: NaN
+Pars: 0.960077  0.097770  0.201989  0.279109  
+Timestamp 10:33:16.341
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:17.118
+Iter: 26784
+Best: NaN
+Pars: 0.709239  0.301298  0.582882  0.858737  
+Timestamp 10:33:17.119
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:17.932
+Iter: 26892
+Best: NaN
+Pars: 0.709239  0.301298  0.582882  0.858737  
+Timestamp 10:33:17.933
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:18.741
+Iter: 27000
+Best: NaN
+Pars: 0.058142  0.647751  0.416710  0.463938  
+Timestamp 10:33:18.742
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:19.574
+Iter: 27108
+Best: NaN
+Pars: 0.417059  0.744252  0.104871  0.586555  
+Timestamp 10:33:19.575
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:20.335
+Iter: 27216
+Best: NaN
+Pars: 0.488517  0.864286  0.945930  0.313461  
+Timestamp 10:33:20.336
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:21.14
+Iter: 27324
+Best: NaN
+Pars: 0.600431  0.948592  0.897007  0.254917  
+Timestamp 10:33:21.141
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:21.945
+Iter: 27432
+Best: NaN
+Pars: 0.600431  0.948592  0.897007  0.254917  
+Timestamp 10:33:21.946
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:22.699
+Iter: 27540
+Best: NaN
+Pars: 0.966030  0.330245  0.879692  0.659633  
+Timestamp 10:33:22.699
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:23.51
+Iter: 27648
+Best: NaN
+Pars: 0.685321  0.315421  0.483616  0.101384  
+Timestamp 10:33:23.511
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:24.29
+Iter: 27756
+Best: NaN
+Pars: 0.777833  0.557946  0.015803  0.459922  
+Timestamp 10:33:24.291
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:25.072
+Iter: 27864
+Best: NaN
+Pars: 0.609211  0.785993  0.920260  0.218467  
+Timestamp 10:33:25.073
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:25.856
+Iter: 27972
+Best: NaN
+Pars: 0.142007  0.892861  0.611495  0.943875  
+Timestamp 10:33:25.857
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:26.658
+Iter: 28080
+Best: NaN
+Pars: 0.142007  0.892861  0.611495  0.943875  
+Timestamp 10:33:26.659
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:27.455
+Iter: 28188
+Best: NaN
+Pars: 0.722553  0.152506  0.413345  0.398093  
+Timestamp 10:33:27.456
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:28.236
+Iter: 28296
+Best: NaN
+Pars: 0.722553  0.152506  0.413345  0.398093  
+Timestamp 10:33:28.237
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:28.978
+Iter: 28404
+Best: NaN
+Pars: 0.722553  0.152506  0.413345  0.398093  
+Timestamp 10:33:28.979
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:29.781
+Iter: 28512
+Best: NaN
+Pars: 0.722553  0.152506  0.413345  0.398093  
+Timestamp 10:33:29.781
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:30.59
+Iter: 28620
+Best: NaN
+Pars: 0.722553  0.152506  0.413345  0.398093  
+Timestamp 10:33:30.591
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:31.348
+Iter: 28728
+Best: NaN
+Pars: 0.801249  0.605417  0.005994  0.601430  
+Timestamp 10:33:31.349
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:32.14
+Iter: 28836
+Best: NaN
+Pars: 0.801249  0.605417  0.005994  0.601430  
+Timestamp 10:33:32.141
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:32.92
+Iter: 28944
+Best: NaN
+Pars: 0.053704  0.479621  0.506899  0.073542  
+Timestamp 10:33:32.921
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:33.721
+Iter: 29052
+Best: NaN
+Pars: 0.616830  0.282079  0.501423  0.833416  
+Timestamp 10:33:33.721
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:34.482
+Iter: 29160
+Best: NaN
+Pars: 0.994522  0.156945  0.525223  0.182745  
+Timestamp 10:33:34.483
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:35.279
+Iter: 29268
+Best: NaN
+Pars: 0.994522  0.156945  0.525223  0.182745  
+Timestamp 10:33:35.28
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:36.106
+Iter: 29376
+Best: NaN
+Pars: 0.994522  0.156945  0.525223  0.182745  
+Timestamp 10:33:36.106
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:37.014
+Iter: 29484
+Best: NaN
+Pars: 0.994522  0.156945  0.525223  0.182745  
+Timestamp 10:33:37.014
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:37.779
+Iter: 29592
+Best: NaN
+Pars: 0.239561  0.797696  0.548242  0.589183  
+Timestamp 10:33:37.781
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:38.559
+Iter: 29700
+Best: NaN
+Pars: 0.239561  0.797696  0.548242  0.589183  
+Timestamp 10:33:38.559
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:39.335
+Iter: 29808
+Best: NaN
+Pars: 0.730956  0.752336  0.593049  0.831350  
+Timestamp 10:33:39.335
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:40.133
+Iter: 29916
+Best: NaN
+Pars: 0.457372  0.123451  0.471159  0.568715  
+Timestamp 10:33:40.134
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:40.897
+Iter: 30024
+Best: NaN
+Pars: 0.077038  0.808190  0.150322  0.297705  
+Timestamp 10:33:40.897
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:41.683
+Iter: 30132
+Best: NaN
+Pars: 0.077038  0.808190  0.150322  0.297705  
+Timestamp 10:33:41.684
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:42.498
+Iter: 30240
+Best: NaN
+Pars: 0.954146  0.801834  0.330664  0.665237  
+Timestamp 10:33:42.498
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:43.251
+Iter: 30348
+Best: NaN
+Pars: 0.260686  0.315605  0.861253  0.037053  
+Timestamp 10:33:43.251
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:44.065
+Iter: 30456
+Best: NaN
+Pars: 0.872995  0.514522  0.325151  0.524509  
+Timestamp 10:33:44.065
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:44.879
+Iter: 30564
+Best: NaN
+Pars: 0.872995  0.514522  0.325151  0.524509  
+Timestamp 10:33:44.88
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:45.68
+Iter: 30672
+Best: NaN
+Pars: 0.480878  0.494650  0.176991  0.788321  
+Timestamp 10:33:45.681
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:46.436
+Iter: 30780
+Best: NaN
+Pars: 0.480878  0.494650  0.176991  0.788321  
+Timestamp 10:33:46.437
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:47.253
+Iter: 30888
+Best: NaN
+Pars: 0.117129  0.321817  0.412162  0.158173  
+Timestamp 10:33:47.254
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:48.076
+Iter: 30996
+Best: NaN
+Pars: 0.792073  0.201225  0.271957  0.919354  
+Timestamp 10:33:48.076
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:48.854
+Iter: 31104
+Best: NaN
+Pars: 0.360319  0.288263  0.028327  0.852824  
+Timestamp 10:33:48.855
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:49.599
+Iter: 31212
+Best: NaN
+Pars: 0.912438  0.564898  0.958563  0.095635  
+Timestamp 10:33:49.599
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:50.415
+Iter: 31320
+Best: NaN
+Pars: 0.297278  0.447641  0.570227  0.338549  
+Timestamp 10:33:50.416
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:51.224
+Iter: 31428
+Best: NaN
+Pars: 0.297278  0.447641  0.570227  0.338549  
+Timestamp 10:33:51.225
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:51.968
+Iter: 31536
+Best: NaN
+Pars: 0.382791  0.832842  0.416769  0.671868  
+Timestamp 10:33:51.969
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:52.758
+Iter: 31644
+Best: NaN
+Pars: 0.382791  0.832842  0.416769  0.671868  
+Timestamp 10:33:52.759
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:53.566
+Iter: 31752
+Best: NaN
+Pars: 0.382791  0.832842  0.416769  0.671868  
+Timestamp 10:33:53.566
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:54.36
+Iter: 31860
+Best: NaN
+Pars: 0.678739  0.377974  0.606055  0.109130  
+Timestamp 10:33:54.361
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:55.117
+Iter: 31968
+Best: NaN
+Pars: 0.678739  0.377974  0.606055  0.109130  
+Timestamp 10:33:55.117
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:55.91
+Iter: 32076
+Best: NaN
+Pars: 0.199195  0.147307  0.247948  0.470919  
+Timestamp 10:33:55.91
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:56.748
+Iter: 32184
+Best: NaN
+Pars: 0.199195  0.147307  0.247948  0.470919  
+Timestamp 10:33:56.749
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:57.545
+Iter: 32292
+Best: NaN
+Pars: 0.199195  0.147307  0.247948  0.470919  
+Timestamp 10:33:57.545
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:58.317
+Iter: 32400
+Best: NaN
+Pars: 0.987408  0.234373  0.946032  0.738568  
+Timestamp 10:33:58.317
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:59.106
+Iter: 32508
+Best: NaN
+Pars: 0.641096  0.034656  0.323989  0.306084  
+Timestamp 10:33:59.107
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:33:59.91
+Iter: 32616
+Best: NaN
+Pars: 0.821612  0.377111  0.408982  0.104526  
+Timestamp 10:33:59.911
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:00.71
+Iter: 32724
+Best: NaN
+Pars: 0.476325  0.514062  0.628636  0.930697  
+Timestamp 10:34:00.71
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:01.482
+Iter: 32832
+Best: NaN
+Pars: 0.885967  0.393813  0.906461  0.448234  
+Timestamp 10:34:01.483
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:02.288
+Iter: 32940
+Best: NaN
+Pars: 0.652189  0.343859  0.052723  0.386563  
+Timestamp 10:34:02.289
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:03.167
+Iter: 33048
+Best: NaN
+Pars: 0.652189  0.343859  0.052723  0.386563  
+Timestamp 10:34:03.168
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:03.933
+Iter: 33156
+Best: NaN
+Pars: 0.415988  0.809822  0.478674  0.425642  
+Timestamp 10:34:03.934
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:04.737
+Iter: 33264
+Best: NaN
+Pars: 0.466583  0.030889  0.463330  0.402929  
+Timestamp 10:34:04.737
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:05.524
+Iter: 33372
+Best: NaN
+Pars: 0.808143  0.560005  0.544611  0.380582  
+Timestamp 10:34:05.525
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:06.315
+Iter: 33480
+Best: NaN
+Pars: 0.808143  0.560005  0.544611  0.380582  
+Timestamp 10:34:06.316
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:07.067
+Iter: 33588
+Best: NaN
+Pars: 0.808143  0.560005  0.544611  0.380582  
+Timestamp 10:34:07.067
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:07.868
+Iter: 33696
+Best: NaN
+Pars: 0.578422  0.457489  0.667879  0.502527  
+Timestamp 10:34:07.869
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:08.679
+Iter: 33804
+Best: NaN
+Pars: 0.343558  0.402973  0.116307  0.699115  
+Timestamp 10:34:08.68
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:09.54
+Iter: 33912
+Best: NaN
+Pars: 0.343558  0.402973  0.116307  0.699115  
+Timestamp 10:34:09.541
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:10.306
+Iter: 34020
+Best: NaN
+Pars: 0.343558  0.402973  0.116307  0.699115  
+Timestamp 10:34:10.307
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:11.112
+Iter: 34128
+Best: NaN
+Pars: 0.642136  0.513576  0.181785  0.830376  
+Timestamp 10:34:11.113
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:11.938
+Iter: 34236
+Best: NaN
+Pars: 0.286938  0.022208  0.310491  0.240505  
+Timestamp 10:34:11.938
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:12.793
+Iter: 34344
+Best: NaN
+Pars: 0.802167  0.963947  0.577481  0.800945  
+Timestamp 10:34:12.794
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:13.548
+Iter: 34452
+Best: NaN
+Pars: 0.802167  0.963947  0.577481  0.800945  
+Timestamp 10:34:13.549
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:14.362
+Iter: 34560
+Best: NaN
+Pars: 0.023603  0.244111  0.365759  0.339053  
+Timestamp 10:34:14.363
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:15.197
+Iter: 34668
+Best: NaN
+Pars: 0.997698  0.557900  0.222838  0.204154  
+Timestamp 10:34:15.198
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:15.95
+Iter: 34776
+Best: NaN
+Pars: 0.817400  0.671613  0.426031  0.626993  
+Timestamp 10:34:15.95
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:16.729
+Iter: 34884
+Best: NaN
+Pars: 0.365718  0.377497  0.623671  0.438176  
+Timestamp 10:34:16.73
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:17.531
+Iter: 34992
+Best: NaN
+Pars: 0.416561  0.452860  0.329603  0.408360  
+Timestamp 10:34:17.532
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:18.326
+Iter: 35100
+Best: NaN
+Pars: 0.416561  0.452860  0.329603  0.408360  
+Timestamp 10:34:18.327
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:19.089
+Iter: 35208
+Best: NaN
+Pars: 0.114435  0.278947  0.155807  0.384828  
+Timestamp 10:34:19.09
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:19.891
+Iter: 35316
+Best: NaN
+Pars: 0.856035  0.922473  0.994419  0.645041  
+Timestamp 10:34:19.892
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:20.724
+Iter: 35424
+Best: NaN
+Pars: 0.856035  0.922473  0.994419  0.645041  
+Timestamp 10:34:20.725
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:21.53
+Iter: 35532
+Best: NaN
+Pars: 0.856035  0.922473  0.994419  0.645041  
+Timestamp 10:34:21.531
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:22.273
+Iter: 35640
+Best: NaN
+Pars: 0.856035  0.922473  0.994419  0.645041  
+Timestamp 10:34:22.274
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:23.058
+Iter: 35748
+Best: NaN
+Pars: 0.282673  0.160640  0.294827  0.586289  
+Timestamp 10:34:23.059
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:23.852
+Iter: 35856
+Best: NaN
+Pars: 0.282673  0.160640  0.294827  0.586289  
+Timestamp 10:34:23.853
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:24.66
+Iter: 35964
+Best: NaN
+Pars: 0.282673  0.160640  0.294827  0.586289  
+Timestamp 10:34:24.661
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:25.418
+Iter: 36072
+Best: NaN
+Pars: 0.282673  0.160640  0.294827  0.586289  
+Timestamp 10:34:25.418
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:26.221
+Iter: 36180
+Best: NaN
+Pars: 0.282673  0.160640  0.294827  0.586289  
+Timestamp 10:34:26.221
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:27.1
+Iter: 36288
+Best: NaN
+Pars: 0.737937  0.386269  0.976254  0.168552  
+Timestamp 10:34:27.101
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:27.974
+Iter: 36396
+Best: NaN
+Pars: 0.515154  0.630671  0.226318  0.597183  
+Timestamp 10:34:27.975
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:28.801
+Iter: 36504
+Best: NaN
+Pars: 0.660073  0.205001  0.588997  0.410470  
+Timestamp 10:34:28.802
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:29.668
+Iter: 36612
+Best: NaN
+Pars: 0.660073  0.205001  0.588997  0.410470  
+Timestamp 10:34:29.668
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:30.511
+Iter: 36720
+Best: NaN
+Pars: 0.729369  0.546352  0.418284  0.127298  
+Timestamp 10:34:30.511
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:31.377
+Iter: 36828
+Best: NaN
+Pars: 0.337451  0.013932  0.418207  0.979154  
+Timestamp 10:34:31.378
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:32.13
+Iter: 36936
+Best: NaN
+Pars: 0.001713  0.760148  0.454093  0.403962  
+Timestamp 10:34:32.131
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:32.946
+Iter: 37044
+Best: NaN
+Pars: 0.038842  0.029539  0.757994  0.550294  
+Timestamp 10:34:32.947
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:33.741
+Iter: 37152
+Best: NaN
+Pars: 0.669671  0.996069  0.778720  0.915329  
+Timestamp 10:34:33.742
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:34.573
+Iter: 37260
+Best: NaN
+Pars: 0.231424  0.485045  0.411389  0.114842  
+Timestamp 10:34:34.574
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:35.324
+Iter: 37368
+Best: NaN
+Pars: 0.231424  0.485045  0.411389  0.114842  
+Timestamp 10:34:35.325
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:36.126
+Iter: 37476
+Best: NaN
+Pars: 0.921018  0.801475  0.618593  0.932019  
+Timestamp 10:34:36.126
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:36.937
+Iter: 37584
+Best: NaN
+Pars: 0.921018  0.801475  0.618593  0.932019  
+Timestamp 10:34:36.937
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:37.688
+Iter: 37692
+Best: NaN
+Pars: 0.514949  0.916289  0.656910  0.165522  
+Timestamp 10:34:37.689
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:38.507
+Iter: 37800
+Best: NaN
+Pars: 0.712921  0.437479  0.191967  0.900490  
+Timestamp 10:34:38.508
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:39.306
+Iter: 37908
+Best: NaN
+Pars: 0.712921  0.437479  0.191967  0.900490  
+Timestamp 10:34:39.308
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:40.116
+Iter: 38016
+Best: NaN
+Pars: 0.945140  0.118217  0.023898  0.069176  
+Timestamp 10:34:40.116
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:40.94
+Iter: 38124
+Best: NaN
+Pars: 0.310453  0.945346  0.774577  0.937587  
+Timestamp 10:34:40.941
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:41.782
+Iter: 38232
+Best: NaN
+Pars: 0.521087  0.547476  0.670704  0.209209  
+Timestamp 10:34:41.783
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:42.604
+Iter: 38340
+Best: NaN
+Pars: 0.341405  0.482187  0.605425  0.916615  
+Timestamp 10:34:42.605
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:43.368
+Iter: 38448
+Best: NaN
+Pars: 0.341405  0.482187  0.605425  0.916615  
+Timestamp 10:34:43.368
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:44.146
+Iter: 38556
+Best: NaN
+Pars: 0.341405  0.482187  0.605425  0.916615  
+Timestamp 10:34:44.147
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:44.967
+Iter: 38664
+Best: NaN
+Pars: 0.391392  0.139248  0.532051  0.303681  
+Timestamp 10:34:44.968
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:45.798
+Iter: 38772
+Best: NaN
+Pars: 0.990192  0.582381  0.303130  0.991941  
+Timestamp 10:34:45.799
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:46.558
+Iter: 38880
+Best: NaN
+Pars: 0.095399  0.302197  0.345910  0.430416  
+Timestamp 10:34:46.558
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:47.358
+Iter: 38988
+Best: NaN
+Pars: 0.095050  0.622699  0.195186  0.857993  
+Timestamp 10:34:47.358
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:48.15
+Iter: 39096
+Best: NaN
+Pars: 0.095050  0.622699  0.195186  0.857993  
+Timestamp 10:34:48.151
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:48.946
+Iter: 39204
+Best: NaN
+Pars: 0.095050  0.622699  0.195186  0.857993  
+Timestamp 10:34:48.947
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:49.718
+Iter: 39312
+Best: NaN
+Pars: 0.846826  0.188524  0.944372  0.823643  
+Timestamp 10:34:49.719
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:50.518
+Iter: 39420
+Best: NaN
+Pars: 0.201041  0.987211  0.061148  0.316556  
+Timestamp 10:34:50.518
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:51.329
+Iter: 39528
+Best: NaN
+Pars: 0.547864  0.513627  0.820295  0.399549  
+Timestamp 10:34:51.33
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:52.141
+Iter: 39636
+Best: NaN
+Pars: 0.547864  0.513627  0.820295  0.399549  
+Timestamp 10:34:52.142
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:52.915
+Iter: 39744
+Best: NaN
+Pars: 0.876119  0.710248  0.552027  0.637601  
+Timestamp 10:34:52.916
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:53.723
+Iter: 39852
+Best: NaN
+Pars: 0.330265  0.719835  0.082962  0.526459  
+Timestamp 10:34:53.724
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:54.525
+Iter: 39960
+Best: NaN
+Pars: 0.978322  0.647092  0.306020  0.792261  
+Timestamp 10:34:54.526
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:55.317
+Iter: 40068
+Best: NaN
+Pars: 0.701619  0.097099  0.720265  0.973575  
+Timestamp 10:34:55.317
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:56.075
+Iter: 40176
+Best: NaN
+Pars: 0.537789  0.425432  0.800572  0.380112  
+Timestamp 10:34:56.076
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:56.88
+Iter: 40284
+Best: NaN
+Pars: 0.537789  0.425432  0.800572  0.380112  
+Timestamp 10:34:56.881
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:57.703
+Iter: 40392
+Best: NaN
+Pars: 0.380748  0.607853  0.692879  0.757009  
+Timestamp 10:34:57.704
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:58.473
+Iter: 40500
+Best: NaN
+Pars: 0.068820  0.215313  0.536138  0.601339  
+Timestamp 10:34:58.474
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:34:59.311
+Iter: 40608
+Best: NaN
+Pars: 0.068820  0.215313  0.536138  0.601339  
+Timestamp 10:34:59.312
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:00.107
+Iter: 40716
+Best: NaN
+Pars: 0.050146  0.899749  0.318017  0.805321  
+Timestamp 10:35:00.108
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:00.919
+Iter: 40824
+Best: NaN
+Pars: 0.581376  0.184787  0.556493  0.246384  
+Timestamp 10:35:00.92
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:01.672
+Iter: 40932
+Best: NaN
+Pars: 0.070141  0.032909  0.188231  0.935673  
+Timestamp 10:35:01.672
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:02.494
+Iter: 41040
+Best: NaN
+Pars: 0.123865  0.699175  0.341954  0.004275  
+Timestamp 10:35:02.495
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:03.34
+Iter: 41148
+Best: NaN
+Pars: 0.274998  0.669695  0.074907  0.403829  
+Timestamp 10:35:03.34
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:04.214
+Iter: 41256
+Best: NaN
+Pars: 0.274998  0.669695  0.074907  0.403829  
+Timestamp 10:35:04.215
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:04.97
+Iter: 41364
+Best: NaN
+Pars: 0.828367  0.315025  0.491245  0.113571  
+Timestamp 10:35:04.97
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:05.803
+Iter: 41472
+Best: NaN
+Pars: 0.075107  0.473375  0.286317  0.531496  
+Timestamp 10:35:05.803
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:06.609
+Iter: 41580
+Best: NaN
+Pars: 0.515079  0.881284  0.311893  0.616424  
+Timestamp 10:35:06.609
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:07.391
+Iter: 41688
+Best: NaN
+Pars: 0.521453  0.494534  0.615330  0.414290  
+Timestamp 10:35:07.392
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:08.166
+Iter: 41796
+Best: NaN
+Pars: 0.377740  0.718596  0.242992  0.496385  
+Timestamp 10:35:08.166
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:08.976
+Iter: 41904
+Best: NaN
+Pars: 0.937204  0.179536  0.746669  0.082433  
+Timestamp 10:35:08.977
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:09.765
+Iter: 42012
+Best: NaN
+Pars: 0.937204  0.179536  0.746669  0.082433  
+Timestamp 10:35:09.765
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:10.519
+Iter: 42120
+Best: NaN
+Pars: 0.937204  0.179536  0.746669  0.082433  
+Timestamp 10:35:10.52
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:11.314
+Iter: 42228
+Best: NaN
+Pars: 0.047826  0.507210  0.463734  0.061491  
+Timestamp 10:35:11.315
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:12.117
+Iter: 42336
+Best: NaN
+Pars: 0.258622  0.631635  0.478952  0.585161  
+Timestamp 10:35:12.117
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:12.941
+Iter: 42444
+Best: NaN
+Pars: 0.258622  0.631635  0.478952  0.585161  
+Timestamp 10:35:12.942
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:13.715
+Iter: 42552
+Best: NaN
+Pars: 0.258622  0.631635  0.478952  0.585161  
+Timestamp 10:35:13.716
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:14.559
+Iter: 42660
+Best: NaN
+Pars: 0.614905  0.528922  0.102511  0.336181  
+Timestamp 10:35:14.56
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:15.344
+Iter: 42768
+Best: NaN
+Pars: 0.687562  0.859885  0.054003  0.639523  
+Timestamp 10:35:15.344
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:16.153
+Iter: 42876
+Best: NaN
+Pars: 0.687562  0.859885  0.054003  0.639523  
+Timestamp 10:35:16.154
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:16.911
+Iter: 42984
+Best: NaN
+Pars: 0.687562  0.859885  0.054003  0.639523  
+Timestamp 10:35:16.912
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:17.744
+Iter: 43092
+Best: NaN
+Pars: 0.687562  0.859885  0.054003  0.639523  
+Timestamp 10:35:17.745
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:18.537
+Iter: 43200
+Best: NaN
+Pars: 0.228908  0.719065  0.512368  0.363721  
+Timestamp 10:35:18.538
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:19.34
+Iter: 43308
+Best: NaN
+Pars: 0.760503  0.296456  0.578837  0.715727  
+Timestamp 10:35:19.341
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:20.1
+Iter: 43416
+Best: NaN
+Pars: 0.346172  0.687251  0.291394  0.450368  
+Timestamp 10:35:20.1
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:20.91
+Iter: 43524
+Best: NaN
+Pars: 0.703006  0.150435  0.978366  0.464717  
+Timestamp 10:35:20.911
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:21.708
+Iter: 43632
+Best: NaN
+Pars: 0.130540  0.926972  0.728139  0.752590  
+Timestamp 10:35:21.709
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:22.492
+Iter: 43740
+Best: NaN
+Pars: 0.130540  0.926972  0.728139  0.752590  
+Timestamp 10:35:22.493
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:23.244
+Iter: 43848
+Best: NaN
+Pars: 0.647856  0.750105  0.934469  0.024146  
+Timestamp 10:35:23.245
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:24.054
+Iter: 43956
+Best: NaN
+Pars: 0.873862  0.740289  0.204038  0.825296  
+Timestamp 10:35:24.055
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:24.854
+Iter: 44064
+Best: NaN
+Pars: 0.242064  0.622830  0.927448  0.220950  
+Timestamp 10:35:24.855
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:25.61
+Iter: 44172
+Best: NaN
+Pars: 0.422554  0.499937  0.554102  0.130934  
+Timestamp 10:35:25.611
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:26.394
+Iter: 44280
+Best: NaN
+Pars: 0.422554  0.499937  0.554102  0.130934  
+Timestamp 10:35:26.395
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:27.223
+Iter: 44388
+Best: NaN
+Pars: 0.239662  0.929701  0.872348  0.060032  
+Timestamp 10:35:27.224
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:28.012
+Iter: 44496
+Best: NaN
+Pars: 0.450704  0.805772  0.415136  0.957322  
+Timestamp 10:35:28.012
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:28.765
+Iter: 44604
+Best: NaN
+Pars: 0.380094  0.419014  0.312220  0.176496  
+Timestamp 10:35:28.765
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:29.548
+Iter: 44712
+Best: NaN
+Pars: 0.787858  0.976115  0.607366  0.453258  
+Timestamp 10:35:29.549
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:30.358
+Iter: 44820
+Best: NaN
+Pars: 0.454946  0.680704  0.315633  0.366638  
+Timestamp 10:35:30.359
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:31.137
+Iter: 44928
+Best: NaN
+Pars: 0.933232  0.157808  0.505317  0.696942  
+Timestamp 10:35:31.138
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:31.887
+Iter: 45036
+Best: NaN
+Pars: 0.569801  0.012918  0.474845  0.162556  
+Timestamp 10:35:31.888
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:32.693
+Iter: 45144
+Best: NaN
+Pars: 0.950327  0.852019  0.571238  0.038015  
+Timestamp 10:35:32.694
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:33.493
+Iter: 45252
+Best: NaN
+Pars: 0.010160  0.439153  0.431308  0.681868  
+Timestamp 10:35:33.493
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:34.305
+Iter: 45360
+Best: NaN
+Pars: 0.386832  0.007586  0.350713  0.756063  
+Timestamp 10:35:34.306
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:35.047
+Iter: 45468
+Best: NaN
+Pars: 0.156177  0.393346  0.832485  0.907898  
+Timestamp 10:35:35.048
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:35.853
+Iter: 45576
+Best: NaN
+Pars: 0.859152  0.360823  0.029447  0.590910  
+Timestamp 10:35:35.854
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:36.651
+Iter: 45684
+Best: NaN
+Pars: 0.542606  0.324612  0.071480  0.005462  
+Timestamp 10:35:36.652
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:37.425
+Iter: 45792
+Best: NaN
+Pars: 0.542606  0.324612  0.071480  0.005462  
+Timestamp 10:35:37.426
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:38.17
+Iter: 45900
+Best: NaN
+Pars: 0.578213  0.647221  0.702260  0.271760  
+Timestamp 10:35:38.171
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:38.976
+Iter: 46008
+Best: NaN
+Pars: 0.572356  0.332495  0.299238  0.887810  
+Timestamp 10:35:38.976
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:39.794
+Iter: 46116
+Best: NaN
+Pars: 0.572356  0.332495  0.299238  0.887810  
+Timestamp 10:35:39.795
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:40.576
+Iter: 46224
+Best: NaN
+Pars: 0.572356  0.332495  0.299238  0.887810  
+Timestamp 10:35:40.576
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:41.377
+Iter: 46332
+Best: NaN
+Pars: 0.199947  0.653326  0.769657  0.478156  
+Timestamp 10:35:41.377
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:42.176
+Iter: 46440
+Best: NaN
+Pars: 0.199947  0.653326  0.769657  0.478156  
+Timestamp 10:35:42.177
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:43.016
+Iter: 46548
+Best: NaN
+Pars: 0.199947  0.653326  0.769657  0.478156  
+Timestamp 10:35:43.016
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:43.777
+Iter: 46656
+Best: NaN
+Pars: 0.359701  0.541166  0.654167  0.466778  
+Timestamp 10:35:43.778
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:44.571
+Iter: 46764
+Best: NaN
+Pars: 0.359701  0.541166  0.654167  0.466778  
+Timestamp 10:35:44.571
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:45.374
+Iter: 46871
+Best: NaN
+Pars: 0.936635  0.497550  0.096378  0.591635  
+Timestamp 10:35:45.375
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:46.153
+Iter: 46979
+Best: NaN
+Pars: 0.379848  0.770331  0.631321  0.370883  
+Timestamp 10:35:46.154
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:46.903
+Iter: 47087
+Best: NaN
+Pars: 0.616741  0.577172  0.400348  0.809344  
+Timestamp 10:35:46.904
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:47.704
+Iter: 47195
+Best: NaN
+Pars: 0.036025  0.118584  0.248095  0.213924  
+Timestamp 10:35:47.705
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:48.508
+Iter: 47302
+Best: NaN
+Pars: 0.648348  0.476476  0.491760  0.349892  
+Timestamp 10:35:48.509
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:49.31
+Iter: 47410
+Best: NaN
+Pars: 0.729020  0.938367  0.579694  0.978430  
+Timestamp 10:35:49.311
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:50.07
+Iter: 47518
+Best: NaN
+Pars: 0.134588  0.602291  0.707082  0.749060  
+Timestamp 10:35:50.071
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:50.885
+Iter: 47626
+Best: NaN
+Pars: 0.887208  0.215502  0.302855  0.054703  
+Timestamp 10:35:50.885
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:51.668
+Iter: 47734
+Best: NaN
+Pars: 0.887208  0.215502  0.302855  0.054703  
+Timestamp 10:35:51.668
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:52.436
+Iter: 47842
+Best: NaN
+Pars: 0.887208  0.215502  0.302855  0.054703  
+Timestamp 10:35:52.437
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:53.201
+Iter: 47950
+Best: NaN
+Pars: 0.960675  0.088837  0.801472  0.031499  
+Timestamp 10:35:53.201
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:53.984
+Iter: 48058
+Best: NaN
+Pars: 0.964752  0.708587  0.109481  0.533149  
+Timestamp 10:35:53.985
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:54.779
+Iter: 48166
+Best: NaN
+Pars: 0.964752  0.708587  0.109481  0.533149  
+Timestamp 10:35:54.78
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:55.6
+Iter: 48274
+Best: NaN
+Pars: 0.250495  0.364509  0.700042  0.793426  
+Timestamp 10:35:55.6
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:56.349
+Iter: 48382
+Best: NaN
+Pars: 0.903167  0.699715  0.922615  0.335958  
+Timestamp 10:35:56.35
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:57.145
+Iter: 48490
+Best: NaN
+Pars: 0.599709  0.040209  0.897759  0.954576  
+Timestamp 10:35:57.145
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:57.924
+Iter: 48598
+Best: NaN
+Pars: 0.746747  0.013467  0.874629  0.596809  
+Timestamp 10:35:57.924
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:58.73
+Iter: 48706
+Best: NaN
+Pars: 0.746747  0.013467  0.874629  0.596809  
+Timestamp 10:35:58.731
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:35:59.561
+Iter: 48814
+Best: NaN
+Pars: 0.746747  0.013467  0.874629  0.596809  
+Timestamp 10:35:59.562
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:00.424
+Iter: 48922
+Best: NaN
+Pars: 0.204572  0.861028  0.843026  0.078026  
+Timestamp 10:36:00.425
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:01.269
+Iter: 49030
+Best: NaN
+Pars: 0.204572  0.861028  0.843026  0.078026  
+Timestamp 10:36:01.27
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:02.029
+Iter: 49138
+Best: NaN
+Pars: 0.545233  0.176778  0.696302  0.330297  
+Timestamp 10:36:02.03
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:02.823
+Iter: 49246
+Best: NaN
+Pars: 0.365701  0.218623  0.417062  0.936654  
+Timestamp 10:36:02.824
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:03.733
+Iter: 49354
+Best: NaN
+Pars: 0.365701  0.218623  0.417062  0.936654  
+Timestamp 10:36:03.734
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:04.698
+Iter: 49462
+Best: NaN
+Pars: 0.639349  0.870442  0.877653  0.646842  
+Timestamp 10:36:04.699
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:05.504
+Iter: 49570
+Best: NaN
+Pars: 0.265734  0.286497  0.047072  0.066862  
+Timestamp 10:36:05.504
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:06.313
+Iter: 49678
+Best: NaN
+Pars: 0.717608  0.950566  0.912305  0.211078  
+Timestamp 10:36:06.314
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:07.16
+Iter: 49786
+Best: NaN
+Pars: 0.496121  0.776332  0.431315  0.081114  
+Timestamp 10:36:07.161
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:07.954
+Iter: 49894
+Best: NaN
+Pars: 0.759156  0.149239  0.588442  0.280345  
+Timestamp 10:36:07.955
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:08.722
+Iter: 50002
+Best: NaN
+Pars: 0.022557  0.846389  0.481346  0.426360  
+Timestamp 10:36:08.722
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:09.517
+Iter: 50110
+Best: NaN
+Pars: 0.022557  0.846389  0.481346  0.426360  
+Timestamp 10:36:09.517
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:10.315
+Iter: 50218
+Best: NaN
+Pars: 0.022557  0.846389  0.481346  0.426360  
+Timestamp 10:36:10.315
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:11.11
+Iter: 50326
+Best: NaN
+Pars: 0.022557  0.846389  0.481346  0.426360  
+Timestamp 10:36:11.111
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:11.872
+Iter: 50434
+Best: NaN
+Pars: 0.163698  0.580078  0.332273  0.166907  
+Timestamp 10:36:11.872
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:12.683
+Iter: 50542
+Best: NaN
+Pars: 0.163698  0.580078  0.332273  0.166907  
+Timestamp 10:36:12.684
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:13.483
+Iter: 50650
+Best: NaN
+Pars: 0.163698  0.580078  0.332273  0.166907  
+Timestamp 10:36:13.483
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:14.276
+Iter: 50758
+Best: NaN
+Pars: 0.751392  0.654582  0.410471  0.985635  
+Timestamp 10:36:14.277
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:15.08
+Iter: 50866
+Best: NaN
+Pars: 0.027861  0.920791  0.688313  0.144197  
+Timestamp 10:36:15.081
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:15.883
+Iter: 50974
+Best: NaN
+Pars: 0.027861  0.920791  0.688313  0.144197  
+Timestamp 10:36:15.884
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:16.697
+Iter: 51082
+Best: NaN
+Pars: 0.686864  0.370620  0.221244  0.044073  
+Timestamp 10:36:16.698
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:17.455
+Iter: 51190
+Best: NaN
+Pars: 0.686864  0.370620  0.221244  0.044073  
+Timestamp 10:36:17.455
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:18.243
+Iter: 51298
+Best: NaN
+Pars: 0.472442  0.712236  0.503866  0.116748  
+Timestamp 10:36:18.243
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:19.062
+Iter: 51406
+Best: NaN
+Pars: 0.599379  0.228466  0.656472  0.056620  
+Timestamp 10:36:19.063
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:19.87
+Iter: 51514
+Best: NaN
+Pars: 0.630446  0.465857  0.352252  0.112293  
+Timestamp 10:36:19.87
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:20.643
+Iter: 51622
+Best: NaN
+Pars: 0.630446  0.465857  0.352252  0.112293  
+Timestamp 10:36:20.644
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:21.439
+Iter: 51730
+Best: NaN
+Pars: 0.630446  0.465857  0.352252  0.112293  
+Timestamp 10:36:21.44
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:22.266
+Iter: 51837
+Best: NaN
+Pars: 0.630446  0.465857  0.352252  0.112293  
+Timestamp 10:36:22.267
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:23.058
+Iter: 51945
+Best: NaN
+Pars: 0.630446  0.465857  0.352252  0.112293  
+Timestamp 10:36:23.058
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:23.811
+Iter: 52053
+Best: NaN
+Pars: 0.268134  0.934723  0.609744  0.460974  
+Timestamp 10:36:23.811
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:24.582
+Iter: 52161
+Best: NaN
+Pars: 0.965948  0.113549  0.455908  0.788830  
+Timestamp 10:36:24.582
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:25.371
+Iter: 52269
+Best: NaN
+Pars: 0.100567  0.783884  0.945541  0.272173  
+Timestamp 10:36:25.372
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:26.169
+Iter: 52377
+Best: NaN
+Pars: 0.100567  0.783884  0.945541  0.272173  
+Timestamp 10:36:26.17
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:26.924
+Iter: 52485
+Best: NaN
+Pars: 0.315636  0.836290  0.974927  0.069943  
+Timestamp 10:36:26.925
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:27.722
+Iter: 52593
+Best: NaN
+Pars: 0.177995  0.330108  0.469469  0.743063  
+Timestamp 10:36:27.723
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:28.519
+Iter: 52701
+Best: NaN
+Pars: 0.177995  0.330108  0.469469  0.743063  
+Timestamp 10:36:28.52
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:29.287
+Iter: 52809
+Best: NaN
+Pars: 0.305240  0.990815  0.494023  0.253936  
+Timestamp 10:36:29.288
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:30.077
+Iter: 52917
+Best: NaN
+Pars: 0.575314  0.358681  0.788139  0.624965  
+Timestamp 10:36:30.077
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:30.889
+Iter: 53025
+Best: NaN
+Pars: 0.858182  0.789032  0.763398  0.732781  
+Timestamp 10:36:30.89
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:31.67
+Iter: 53133
+Best: NaN
+Pars: 0.858182  0.789032  0.763398  0.732781  
+Timestamp 10:36:31.671
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:32.426
+Iter: 53241
+Best: NaN
+Pars: 0.501171  0.555030  0.114767  0.299370  
+Timestamp 10:36:32.426
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:33.21
+Iter: 53349
+Best: NaN
+Pars: 0.830780  0.498947  0.200430  0.574363  
+Timestamp 10:36:33.21
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:34.004
+Iter: 53457
+Best: NaN
+Pars: 0.488444  0.187023  0.869451  0.418732  
+Timestamp 10:36:34.005
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:34.8
+Iter: 53565
+Best: NaN
+Pars: 0.668178  0.700093  0.805123  0.080364  
+Timestamp 10:36:34.801
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:35.564
+Iter: 53673
+Best: NaN
+Pars: 0.668178  0.700093  0.805123  0.080364  
+Timestamp 10:36:35.564
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:36.353
+Iter: 53781
+Best: NaN
+Pars: 0.697250  0.855269  0.813538  0.552416  
+Timestamp 10:36:36.353
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:37.158
+Iter: 53889
+Best: NaN
+Pars: 0.560967  0.720612  0.425642  0.813755  
+Timestamp 10:36:37.158
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:37.919
+Iter: 53997
+Best: NaN
+Pars: 0.560967  0.720612  0.425642  0.813755  
+Timestamp 10:36:37.919
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:38.76
+Iter: 54105
+Best: NaN
+Pars: 0.560967  0.720612  0.425642  0.813755  
+Timestamp 10:36:38.761
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:39.571
+Iter: 54213
+Best: NaN
+Pars: 0.560967  0.720612  0.425642  0.813755  
+Timestamp 10:36:39.572
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:40.349
+Iter: 54321
+Best: NaN
+Pars: 0.074083  0.678159  0.176198  0.216291  
+Timestamp 10:36:40.35
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:41.142
+Iter: 54429
+Best: NaN
+Pars: 0.161977  0.655652  0.102375  0.007324  
+Timestamp 10:36:41.143
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:41.955
+Iter: 54537
+Best: NaN
+Pars: 0.590652  0.264850  0.860815  0.784261  
+Timestamp 10:36:41.956
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:42.766
+Iter: 54645
+Best: NaN
+Pars: 0.590652  0.264850  0.860815  0.784261  
+Timestamp 10:36:42.767
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:43.524
+Iter: 54753
+Best: NaN
+Pars: 0.471342  0.398108  0.273242  0.955739  
+Timestamp 10:36:43.525
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:44.313
+Iter: 54861
+Best: NaN
+Pars: 0.451783  0.228734  0.961214  0.861033  
+Timestamp 10:36:44.314
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:45.138
+Iter: 54969
+Best: NaN
+Pars: 0.224416  0.011227  0.880722  0.465826  
+Timestamp 10:36:45.139
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:45.942
+Iter: 55077
+Best: NaN
+Pars: 0.224416  0.011227  0.880722  0.465826  
+Timestamp 10:36:45.943
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:46.71
+Iter: 55185
+Best: NaN
+Pars: 0.389139  0.909643  0.335485  0.892251  
+Timestamp 10:36:46.71
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:47.546
+Iter: 55293
+Best: NaN
+Pars: 0.302365  0.768750  0.938702  0.481320  
+Timestamp 10:36:47.547
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:48.341
+Iter: 55401
+Best: NaN
+Pars: 0.263099  0.215969  0.664228  0.880734  
+Timestamp 10:36:48.342
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:49.098
+Iter: 55509
+Best: NaN
+Pars: 0.192882  0.665342  0.645224  0.094380  
+Timestamp 10:36:49.099
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:49.897
+Iter: 55617
+Best: NaN
+Pars: 0.192882  0.665342  0.645224  0.094380  
+Timestamp 10:36:49.898
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:50.697
+Iter: 55725
+Best: NaN
+Pars: 0.192882  0.665342  0.645224  0.094380  
+Timestamp 10:36:50.697
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:51.516
+Iter: 55833
+Best: NaN
+Pars: 0.784647  0.470846  0.647619  0.649967  
+Timestamp 10:36:51.516
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:52.284
+Iter: 55941
+Best: NaN
+Pars: 0.784647  0.470846  0.647619  0.649967  
+Timestamp 10:36:52.285
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:53.099
+Iter: 56049
+Best: NaN
+Pars: 0.821727  0.016759  0.039510  0.696524  
+Timestamp 10:36:53.1
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:53.899
+Iter: 56157
+Best: NaN
+Pars: 0.187322  0.515984  0.540659  0.151889  
+Timestamp 10:36:53.9
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:54.713
+Iter: 56265
+Best: NaN
+Pars: 0.713133  0.134149  0.601626  0.785425  
+Timestamp 10:36:54.714
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:55.476
+Iter: 56373
+Best: NaN
+Pars: 0.925596  0.477130  0.967969  0.267726  
+Timestamp 10:36:55.476
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:56.282
+Iter: 56481
+Best: NaN
+Pars: 0.432680  0.399341  0.126248  0.307556  
+Timestamp 10:36:56.283
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:57.105
+Iter: 56589
+Best: NaN
+Pars: 0.432680  0.399341  0.126248  0.307556  
+Timestamp 10:36:57.105
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:57.855
+Iter: 56697
+Best: NaN
+Pars: 0.432680  0.399341  0.126248  0.307556  
+Timestamp 10:36:57.856
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:58.673
+Iter: 56805
+Best: NaN
+Pars: 0.146560  0.175051  0.856095  0.104798  
+Timestamp 10:36:58.674
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:36:59.493
+Iter: 56913
+Best: NaN
+Pars: 0.146560  0.175051  0.856095  0.104798  
+Timestamp 10:36:59.493
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:00.291
+Iter: 57021
+Best: NaN
+Pars: 0.625615  0.241874  0.514686  0.200703  
+Timestamp 10:37:00.291
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:01.103
+Iter: 57129
+Best: NaN
+Pars: 0.625615  0.241874  0.514686  0.200703  
+Timestamp 10:37:01.104
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:01.91
+Iter: 57237
+Best: NaN
+Pars: 0.780781  0.190718  0.386879  0.429219  
+Timestamp 10:37:01.91
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:02.711
+Iter: 57345
+Best: NaN
+Pars: 0.016279  0.193815  0.397738  0.843869  
+Timestamp 10:37:02.712
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:03.587
+Iter: 57453
+Best: NaN
+Pars: 0.016279  0.193815  0.397738  0.843869  
+Timestamp 10:37:03.588
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:04.421
+Iter: 57561
+Best: NaN
+Pars: 0.637869  0.872226  0.039059  0.675990  
+Timestamp 10:37:04.422
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:05.235
+Iter: 57669
+Best: NaN
+Pars: 0.637869  0.872226  0.039059  0.675990  
+Timestamp 10:37:05.236
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:06.067
+Iter: 57777
+Best: NaN
+Pars: 0.637869  0.872226  0.039059  0.675990  
+Timestamp 10:37:06.067
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:06.876
+Iter: 57885
+Best: NaN
+Pars: 0.812856  0.772144  0.854427  0.998365  
+Timestamp 10:37:06.876
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:07.694
+Iter: 57993
+Best: NaN
+Pars: 0.203339  0.926305  0.633261  0.694247  
+Timestamp 10:37:07.695
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:08.505
+Iter: 58101
+Best: NaN
+Pars: 0.203339  0.926305  0.633261  0.694247  
+Timestamp 10:37:08.505
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:09.321
+Iter: 58209
+Best: NaN
+Pars: 0.924920  0.975025  0.872092  0.984074  
+Timestamp 10:37:09.322
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:10.118
+Iter: 58317
+Best: NaN
+Pars: 0.466975  0.882118  0.407711  0.190477  
+Timestamp 10:37:10.119
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:10.934
+Iter: 58425
+Best: NaN
+Pars: 0.466975  0.882118  0.407711  0.190477  
+Timestamp 10:37:10.935
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:11.747
+Iter: 58533
+Best: NaN
+Pars: 0.466975  0.882118  0.407711  0.190477  
+Timestamp 10:37:11.748
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:12.57
+Iter: 58641
+Best: NaN
+Pars: 0.466975  0.882118  0.407711  0.190477  
+Timestamp 10:37:12.57
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:13.329
+Iter: 58749
+Best: NaN
+Pars: 0.032853  0.696847  0.759919  0.917642  
+Timestamp 10:37:13.329
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:14.128
+Iter: 58857
+Best: NaN
+Pars: 0.338521  0.357129  0.540784  0.340191  
+Timestamp 10:37:14.128
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:14.926
+Iter: 58965
+Best: NaN
+Pars: 0.338521  0.357129  0.540784  0.340191  
+Timestamp 10:37:14.927
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:15.679
+Iter: 59073
+Best: NaN
+Pars: 0.379437  0.855003  0.486270  0.920215  
+Timestamp 10:37:15.679
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:16.469
+Iter: 59181
+Best: NaN
+Pars: 0.379437  0.855003  0.486270  0.920215  
+Timestamp 10:37:16.469
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:17.263
+Iter: 59289
+Best: NaN
+Pars: 0.265315  0.473190  0.651747  0.747999  
+Timestamp 10:37:17.264
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:18.061
+Iter: 59397
+Best: NaN
+Pars: 0.228747  0.791219  0.576853  0.924959  
+Timestamp 10:37:18.062
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:18.844
+Iter: 59505
+Best: NaN
+Pars: 0.228747  0.791219  0.576853  0.924959  
+Timestamp 10:37:18.845
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:19.647
+Iter: 59613
+Best: NaN
+Pars: 0.996225  0.867690  0.271274  0.742715  
+Timestamp 10:37:19.648
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:20.438
+Iter: 59721
+Best: NaN
+Pars: 0.215799  0.237426  0.773018  0.074879  
+Timestamp 10:37:20.439
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:21.284
+Iter: 59829
+Best: NaN
+Pars: 0.593154  0.194112  0.368438  0.865128  
+Timestamp 10:37:21.285
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:22.11
+Iter: 59937
+Best: NaN
+Pars: 0.593154  0.194112  0.368438  0.865128  
+Timestamp 10:37:22.111
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:22.926
+Iter: 60045
+Best: NaN
+Pars: 0.465855  0.256218  0.357910  0.334013  
+Timestamp 10:37:22.926
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:23.753
+Iter: 60153
+Best: NaN
+Pars: 0.867694  0.873050  0.485873  0.568085  
+Timestamp 10:37:23.754
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:24.504
+Iter: 60261
+Best: NaN
+Pars: 0.376406  0.572476  0.653403  0.948371  
+Timestamp 10:37:24.505
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:25.301
+Iter: 60369
+Best: NaN
+Pars: 0.376406  0.572476  0.653403  0.948371  
+Timestamp 10:37:25.302
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:26.117
+Iter: 60477
+Best: NaN
+Pars: 0.155055  0.248428  0.519813  0.106832  
+Timestamp 10:37:26.118
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:26.912
+Iter: 60585
+Best: NaN
+Pars: 0.610086  0.487715  0.803193  0.499548  
+Timestamp 10:37:26.913
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:27.677
+Iter: 60693
+Best: NaN
+Pars: 0.060496  0.249087  0.729427  0.242532  
+Timestamp 10:37:27.677
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:28.484
+Iter: 60801
+Best: NaN
+Pars: 0.740370  0.236658  0.237303  0.542313  
+Timestamp 10:37:28.484
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:29.295
+Iter: 60909
+Best: NaN
+Pars: 0.240873  0.323853  0.477102  0.272310  
+Timestamp 10:37:29.296
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:30.103
+Iter: 61017
+Best: NaN
+Pars: 0.134808  0.489239  0.469848  0.149739  
+Timestamp 10:37:30.104
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:30.871
+Iter: 61125
+Best: NaN
+Pars: 0.963674  0.761985  0.389205  0.805022  
+Timestamp 10:37:30.872
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:31.671
+Iter: 61233
+Best: NaN
+Pars: 0.518715  0.379042  0.581423  0.562639  
+Timestamp 10:37:31.672
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:32.457
+Iter: 61341
+Best: NaN
+Pars: 0.518715  0.379042  0.581423  0.562639  
+Timestamp 10:37:32.457
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:33.252
+Iter: 61449
+Best: NaN
+Pars: 0.981415  0.476180  0.563495  0.116343  
+Timestamp 10:37:33.252
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:34.015
+Iter: 61557
+Best: NaN
+Pars: 0.145704  0.446800  0.321738  0.449453  
+Timestamp 10:37:34.016
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:34.826
+Iter: 61665
+Best: NaN
+Pars: 0.705621  0.963629  0.677258  0.476546  
+Timestamp 10:37:34.827
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:35.637
+Iter: 61773
+Best: NaN
+Pars: 0.430155  0.956879  0.388884  0.087600  
+Timestamp 10:37:35.638
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:36.388
+Iter: 61881
+Best: NaN
+Pars: 0.654997  0.952628  0.619414  0.780926  
+Timestamp 10:37:36.389
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:37.167
+Iter: 61989
+Best: NaN
+Pars: 0.153251  0.488540  0.842664  0.348768  
+Timestamp 10:37:37.168
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:37.959
+Iter: 62097
+Best: NaN
+Pars: 0.096680  0.913124  0.039355  0.968814  
+Timestamp 10:37:37.959
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:38.763
+Iter: 62205
+Best: NaN
+Pars: 0.338988  0.269163  0.871169  0.039483  
+Timestamp 10:37:38.764
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:39.585
+Iter: 62313
+Best: NaN
+Pars: 0.338988  0.269163  0.871169  0.039483  
+Timestamp 10:37:39.585
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:40.36
+Iter: 62421
+Best: NaN
+Pars: 0.338988  0.269163  0.871169  0.039483  
+Timestamp 10:37:40.36
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:41.175
+Iter: 62529
+Best: NaN
+Pars: 0.893167  0.488518  0.229267  0.886837  
+Timestamp 10:37:41.176
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:41.984
+Iter: 62637
+Best: NaN
+Pars: 0.695493  0.827294  0.909717  0.937772  
+Timestamp 10:37:41.985
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:42.754
+Iter: 62745
+Best: NaN
+Pars: 0.022994  0.173643  0.151250  0.225642  
+Timestamp 10:37:42.755
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:43.548
+Iter: 62853
+Best: NaN
+Pars: 0.524221  0.311311  0.520405  0.635246  
+Timestamp 10:37:43.549
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:44.326
+Iter: 62961
+Best: NaN
+Pars: 0.508868  0.994191  0.316463  0.041500  
+Timestamp 10:37:44.326
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:45.152
+Iter: 63069
+Best: NaN
+Pars: 0.192904  0.526167  0.410731  0.738609  
+Timestamp 10:37:45.152
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:45.903
+Iter: 63177
+Best: NaN
+Pars: 0.192904  0.526167  0.410731  0.738609  
+Timestamp 10:37:45.903
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:46.696
+Iter: 63285
+Best: NaN
+Pars: 0.192904  0.526167  0.410731  0.738609  
+Timestamp 10:37:46.697
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:47.519
+Iter: 63393
+Best: NaN
+Pars: 0.719813  0.508073  0.748951  0.317670  
+Timestamp 10:37:47.52
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:48.31
+Iter: 63501
+Best: NaN
+Pars: 0.089149  0.631367  0.249966  0.659617  
+Timestamp 10:37:48.31
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:49.075
+Iter: 63609
+Best: NaN
+Pars: 0.701291  0.454446  0.588898  0.241539  
+Timestamp 10:37:49.076
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:49.874
+Iter: 63717
+Best: NaN
+Pars: 0.926658  0.821369  0.465876  0.610652  
+Timestamp 10:37:49.875
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:50.666
+Iter: 63825
+Best: NaN
+Pars: 0.926658  0.821369  0.465876  0.610652  
+Timestamp 10:37:50.666
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:51.431
+Iter: 63933
+Best: NaN
+Pars: 0.317918  0.578737  0.624790  0.370923  
+Timestamp 10:37:51.431
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:52.246
+Iter: 64041
+Best: NaN
+Pars: 0.115891  0.582857  0.025670  0.210166  
+Timestamp 10:37:52.247
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:53.045
+Iter: 64149
+Best: NaN
+Pars: 0.612387  0.607146  0.890411  0.262432  
+Timestamp 10:37:53.046
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:53.856
+Iter: 64257
+Best: NaN
+Pars: 0.341496  0.567724  0.976121  0.138038  
+Timestamp 10:37:53.857
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:54.632
+Iter: 64365
+Best: NaN
+Pars: 0.341496  0.567724  0.976121  0.138038  
+Timestamp 10:37:54.633
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:55.436
+Iter: 64473
+Best: NaN
+Pars: 0.917936  0.659870  0.013075  0.324262  
+Timestamp 10:37:55.436
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:56.242
+Iter: 64581
+Best: NaN
+Pars: 0.631043  0.295744  0.519786  0.014319  
+Timestamp 10:37:56.243
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:57.031
+Iter: 64689
+Best: NaN
+Pars: 0.631043  0.295744  0.519786  0.014319  
+Timestamp 10:37:57.032
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:57.79
+Iter: 64797
+Best: NaN
+Pars: 0.858335  0.877471  0.797189  0.505438  
+Timestamp 10:37:57.791
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:58.586
+Iter: 64905
+Best: NaN
+Pars: 0.858335  0.877471  0.797189  0.505438  
+Timestamp 10:37:58.587
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:37:59.397
+Iter: 65013
+Best: NaN
+Pars: 0.744384  0.610826  0.408254  0.831586  
+Timestamp 10:37:59.398
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:00.179
+Iter: 65121
+Best: NaN
+Pars: 0.744384  0.610826  0.408254  0.831586  
+Timestamp 10:38:00.179
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:00.993
+Iter: 65229
+Best: NaN
+Pars: 0.468435  0.393548  0.803729  0.648894  
+Timestamp 10:38:00.994
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:01.794
+Iter: 65337
+Best: NaN
+Pars: 0.286258  0.462036  0.409054  0.083399  
+Timestamp 10:38:01.794
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:02.593
+Iter: 65445
+Best: NaN
+Pars: 0.403472  0.011534  0.685911  0.192170  
+Timestamp 10:38:02.593
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:03.349
+Iter: 65553
+Best: NaN
+Pars: 0.403472  0.011534  0.685911  0.192170  
+Timestamp 10:38:03.35
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:04.133
+Iter: 65661
+Best: NaN
+Pars: 0.668240  0.455822  0.381309  0.109675  
+Timestamp 10:38:04.134
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:04.928
+Iter: 65769
+Best: NaN
+Pars: 0.796409  0.475477  0.261759  0.041372  
+Timestamp 10:38:04.929
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:05.744
+Iter: 65877
+Best: NaN
+Pars: 0.691712  0.081208  0.227912  0.756435  
+Timestamp 10:38:05.745
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:06.509
+Iter: 65985
+Best: NaN
+Pars: 0.605064  0.708618  0.297483  0.810308  
+Timestamp 10:38:06.51
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:07.355
+Iter: 66093
+Best: NaN
+Pars: 0.605064  0.708618  0.297483  0.810308  
+Timestamp 10:38:07.356
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:08.203
+Iter: 66201
+Best: NaN
+Pars: 0.456100  0.494532  0.789294  0.076723  
+Timestamp 10:38:08.204
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:08.961
+Iter: 66309
+Best: NaN
+Pars: 0.278886  0.148785  0.022012  0.613450  
+Timestamp 10:38:08.962
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:09.752
+Iter: 66417
+Best: NaN
+Pars: 0.084105  0.079917  0.699752  0.256242  
+Timestamp 10:38:09.753
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:10.537
+Iter: 66525
+Best: NaN
+Pars: 0.603166  0.575367  0.113755  0.667225  
+Timestamp 10:38:10.538
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:11.344
+Iter: 66633
+Best: NaN
+Pars: 0.398007  0.504727  0.885132  0.386427  
+Timestamp 10:38:11.345
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:12.152
+Iter: 66741
+Best: NaN
+Pars: 0.398007  0.504727  0.885132  0.386427  
+Timestamp 10:38:12.153
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:12.922
+Iter: 66849
+Best: NaN
+Pars: 0.398007  0.504727  0.885132  0.386427  
+Timestamp 10:38:12.923
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:13.721
+Iter: 66957
+Best: NaN
+Pars: 0.398007  0.504727  0.885132  0.386427  
+Timestamp 10:38:13.722
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:14.532
+Iter: 67065
+Best: NaN
+Pars: 0.121089  0.794068  0.678056  0.344894  
+Timestamp 10:38:14.533
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:15.333
+Iter: 67173
+Best: NaN
+Pars: 0.673728  0.637570  0.558791  0.424803  
+Timestamp 10:38:15.333
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:16.091
+Iter: 67281
+Best: NaN
+Pars: 0.711430  0.228150  0.523343  0.922818  
+Timestamp 10:38:16.092
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:16.905
+Iter: 67389
+Best: NaN
+Pars: 0.645560  0.111398  0.404141  0.665956  
+Timestamp 10:38:16.906
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:17.712
+Iter: 67497
+Best: NaN
+Pars: 0.645560  0.111398  0.404141  0.665956  
+Timestamp 10:38:17.713
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:18.512
+Iter: 67605
+Best: NaN
+Pars: 0.275772  0.259470  0.714735  0.374839  
+Timestamp 10:38:18.512
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:19.319
+Iter: 67713
+Best: NaN
+Pars: 0.002995  0.250418  0.308699  0.195587  
+Timestamp 10:38:19.319
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:20.102
+Iter: 67821
+Best: NaN
+Pars: 0.751337  0.273867  0.320593  0.040918  
+Timestamp 10:38:20.103
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:20.903
+Iter: 67929
+Best: NaN
+Pars: 0.751337  0.273867  0.320593  0.040918  
+Timestamp 10:38:20.904
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:21.674
+Iter: 68037
+Best: NaN
+Pars: 0.798175  0.765309  0.684758  0.558499  
+Timestamp 10:38:21.675
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:22.46
+Iter: 68145
+Best: NaN
+Pars: 0.159368  0.665617  0.927851  0.208942  
+Timestamp 10:38:22.461
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:23.268
+Iter: 68253
+Best: NaN
+Pars: 0.511605  0.882117  0.989789  0.744673  
+Timestamp 10:38:23.269
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:24.065
+Iter: 68361
+Best: NaN
+Pars: 0.975367  0.257580  0.067753  0.284479  
+Timestamp 10:38:24.066
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:24.86
+Iter: 68469
+Best: NaN
+Pars: 0.427580  0.879596  0.478727  0.751122  
+Timestamp 10:38:24.86
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:25.685
+Iter: 68577
+Best: NaN
+Pars: 0.427580  0.879596  0.478727  0.751122  
+Timestamp 10:38:25.685
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:26.481
+Iter: 68685
+Best: NaN
+Pars: 0.641626  0.430766  0.491033  0.211326  
+Timestamp 10:38:26.482
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:27.229
+Iter: 68793
+Best: NaN
+Pars: 0.038928  0.395985  0.099989  0.646762  
+Timestamp 10:38:27.23
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:28.03
+Iter: 68901
+Best: NaN
+Pars: 0.898991  0.162967  0.813393  0.011035  
+Timestamp 10:38:28.03
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:28.811
+Iter: 69009
+Best: NaN
+Pars: 0.898991  0.162967  0.813393  0.011035  
+Timestamp 10:38:28.812
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:29.623
+Iter: 69117
+Best: NaN
+Pars: 0.050767  0.865602  0.681015  0.808536  
+Timestamp 10:38:29.624
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:30.395
+Iter: 69225
+Best: NaN
+Pars: 0.022320  0.958715  0.396680  0.754838  
+Timestamp 10:38:30.396
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:31.177
+Iter: 69333
+Best: NaN
+Pars: 0.704260  0.553820  0.952781  0.715443  
+Timestamp 10:38:31.178
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:31.975
+Iter: 69441
+Best: NaN
+Pars: 0.704260  0.553820  0.952781  0.715443  
+Timestamp 10:38:31.975
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:32.765
+Iter: 69549
+Best: NaN
+Pars: 0.989873  0.148527  0.655194  0.253717  
+Timestamp 10:38:32.766
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:33.536
+Iter: 69657
+Best: NaN
+Pars: 0.489978  0.558826  0.115525  0.985203  
+Timestamp 10:38:33.537
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:34.345
+Iter: 69765
+Best: NaN
+Pars: 0.889566  0.195064  0.060949  0.574025  
+Timestamp 10:38:34.345
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:35.123
+Iter: 69873
+Best: NaN
+Pars: 0.727202  0.666872  0.616492  0.299266  
+Timestamp 10:38:35.123
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:35.913
+Iter: 69981
+Best: NaN
+Pars: 0.079102  0.705852  0.666212  0.230004  
+Timestamp 10:38:35.914
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:36.681
+Iter: 70089
+Best: NaN
+Pars: 0.978093  0.957868  0.551751  0.280627  
+Timestamp 10:38:36.681
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:37.475
+Iter: 70197
+Best: NaN
+Pars: 0.307226  0.514413  0.799032  0.129962  
+Timestamp 10:38:37.476
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:38.264
+Iter: 70305
+Best: NaN
+Pars: 0.121602  0.063502  0.428639  0.751963  
+Timestamp 10:38:38.265
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:39.028
+Iter: 70413
+Best: NaN
+Pars: 0.121602  0.063502  0.428639  0.751963  
+Timestamp 10:38:39.029
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:39.829
+Iter: 70521
+Best: NaN
+Pars: 0.121602  0.063502  0.428639  0.751963  
+Timestamp 10:38:39.829
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:40.631
+Iter: 70629
+Best: NaN
+Pars: 0.813264  0.429410  0.959536  0.393974  
+Timestamp 10:38:40.632
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:41.435
+Iter: 70737
+Best: NaN
+Pars: 0.813264  0.429410  0.959536  0.393974  
+Timestamp 10:38:41.436
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:42.194
+Iter: 70845
+Best: NaN
+Pars: 0.813264  0.429410  0.959536  0.393974  
+Timestamp 10:38:42.195
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:42.998
+Iter: 70953
+Best: NaN
+Pars: 0.771931  0.127400  0.703898  0.557006  
+Timestamp 10:38:42.999
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:43.814
+Iter: 71061
+Best: NaN
+Pars: 0.771931  0.127400  0.703898  0.557006  
+Timestamp 10:38:43.814
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:44.618
+Iter: 71169
+Best: NaN
+Pars: 0.771931  0.127400  0.703898  0.557006  
+Timestamp 10:38:44.619
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:45.377
+Iter: 71277
+Best: NaN
+Pars: 0.806868  0.483725  0.891291  0.837354  
+Timestamp 10:38:45.378
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:46.195
+Iter: 71385
+Best: NaN
+Pars: 0.966045  0.215790  0.327033  0.666285  
+Timestamp 10:38:46.196
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:47.044
+Iter: 71493
+Best: NaN
+Pars: 0.043458  0.592055  0.743725  0.241839  
+Timestamp 10:38:47.045
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:47.857
+Iter: 71601
+Best: NaN
+Pars: 0.860104  0.567754  0.864803  0.502573  
+Timestamp 10:38:47.858
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:48.621
+Iter: 71709
+Best: NaN
+Pars: 0.220478  0.972842  0.080747  0.046927  
+Timestamp 10:38:48.622
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:49.431
+Iter: 71817
+Best: NaN
+Pars: 0.692262  0.995936  0.987348  0.121051  
+Timestamp 10:38:49.432
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:50.254
+Iter: 71925
+Best: NaN
+Pars: 0.272131  0.467801  0.622964  0.420771  
+Timestamp 10:38:50.255
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:51.014
+Iter: 72033
+Best: NaN
+Pars: 0.272131  0.467801  0.622964  0.420771  
+Timestamp 10:38:51.015
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:51.809
+Iter: 72141
+Best: NaN
+Pars: 0.272131  0.467801  0.622964  0.420771  
+Timestamp 10:38:51.81
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:52.616
+Iter: 72249
+Best: NaN
+Pars: 0.603800  0.396863  0.201682  0.454621  
+Timestamp 10:38:52.617
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:53.407
+Iter: 72357
+Best: NaN
+Pars: 0.387746  0.118904  0.183162  0.351767  
+Timestamp 10:38:53.408
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:54.175
+Iter: 72465
+Best: NaN
+Pars: 0.783478  0.755181  0.695281  0.961417  
+Timestamp 10:38:54.175
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:55.004
+Iter: 72573
+Best: NaN
+Pars: 0.165792  0.847045  0.202115  0.572888  
+Timestamp 10:38:55.005
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:55.829
+Iter: 72681
+Best: NaN
+Pars: 0.165792  0.847045  0.202115  0.572888  
+Timestamp 10:38:55.83
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:56.612
+Iter: 72789
+Best: NaN
+Pars: 0.165792  0.847045  0.202115  0.572888  
+Timestamp 10:38:56.612
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:57.368
+Iter: 72897
+Best: NaN
+Pars: 0.165792  0.847045  0.202115  0.572888  
+Timestamp 10:38:57.368
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:58.171
+Iter: 73005
+Best: NaN
+Pars: 0.825410  0.755515  0.297621  0.873146  
+Timestamp 10:38:58.172
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:58.984
+Iter: 73113
+Best: NaN
+Pars: 0.945622  0.607222  0.391233  0.706624  
+Timestamp 10:38:58.984
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:38:59.775
+Iter: 73221
+Best: NaN
+Pars: 0.945622  0.607222  0.391233  0.706624  
+Timestamp 10:38:59.775
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:00.584
+Iter: 73329
+Best: NaN
+Pars: 0.063292  0.444227  0.411191  0.688347  
+Timestamp 10:39:00.585
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:01.418
+Iter: 73437
+Best: NaN
+Pars: 0.728630  0.683022  0.480004  0.542254  
+Timestamp 10:39:01.418
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:02.215
+Iter: 73545
+Best: NaN
+Pars: 0.689810  0.446735  0.591337  0.423952  
+Timestamp 10:39:02.216
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:03.032
+Iter: 73653
+Best: NaN
+Pars: 0.689810  0.446735  0.591337  0.423952  
+Timestamp 10:39:03.032
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:03.786
+Iter: 73761
+Best: NaN
+Pars: 0.689810  0.446735  0.591337  0.423952  
+Timestamp 10:39:03.787
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:04.601
+Iter: 73869
+Best: NaN
+Pars: 0.509099  0.740937  0.242628  0.486402  
+Timestamp 10:39:04.601
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:05.407
+Iter: 73977
+Best: NaN
+Pars: 0.354041  0.438883  0.802815  0.930263  
+Timestamp 10:39:05.408
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:06.193
+Iter: 74085
+Best: NaN
+Pars: 0.000952  0.316830  0.624002  0.344810  
+Timestamp 10:39:06.194
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:06.967
+Iter: 74193
+Best: NaN
+Pars: 0.000952  0.316830  0.624002  0.344810  
+Timestamp 10:39:06.967
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:07.783
+Iter: 74301
+Best: NaN
+Pars: 0.000952  0.316830  0.624002  0.344810  
+Timestamp 10:39:07.784
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:08.65
+Iter: 74409
+Best: NaN
+Pars: 0.814996  0.187506  0.751747  0.350869  
+Timestamp 10:39:08.651
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:09.462
+Iter: 74517
+Best: NaN
+Pars: 0.184985  0.728973  0.087926  0.379585  
+Timestamp 10:39:09.462
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:10.273
+Iter: 74625
+Best: NaN
+Pars: 0.447921  0.381235  0.917160  0.204595  
+Timestamp 10:39:10.273
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:11.071
+Iter: 74733
+Best: NaN
+Pars: 0.890950  0.624134  0.380908  0.503474  
+Timestamp 10:39:11.072
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:11.88
+Iter: 74841
+Best: NaN
+Pars: 0.890950  0.624134  0.380908  0.503474  
+Timestamp 10:39:11.88
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:12.635
+Iter: 74949
+Best: NaN
+Pars: 0.890950  0.624134  0.380908  0.503474  
+Timestamp 10:39:12.636
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:13.477
+Iter: 75057
+Best: NaN
+Pars: 0.003362  0.961505  0.303693  0.581889  
+Timestamp 10:39:13.477
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:14.293
+Iter: 75165
+Best: NaN
+Pars: 0.242906  0.845311  0.108029  0.775099  
+Timestamp 10:39:14.293
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:15.111
+Iter: 75273
+Best: NaN
+Pars: 0.242906  0.845311  0.108029  0.775099  
+Timestamp 10:39:15.112
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:15.9
+Iter: 75381
+Best: NaN
+Pars: 0.242906  0.845311  0.108029  0.775099  
+Timestamp 10:39:15.901
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:16.801
+Iter: 75489
+Best: NaN
+Pars: 0.436520  0.365113  0.658803  0.349513  
+Timestamp 10:39:16.802
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:17.649
+Iter: 75597
+Best: NaN
+Pars: 0.436520  0.365113  0.658803  0.349513  
+Timestamp 10:39:17.65
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:18.436
+Iter: 75705
+Best: NaN
+Pars: 0.884011  0.661027  0.322934  0.610036  
+Timestamp 10:39:18.437
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:19.367
+Iter: 75813
+Best: NaN
+Pars: 0.884011  0.661027  0.322934  0.610036  
+Timestamp 10:39:19.367
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:20.29
+Iter: 75921
+Best: NaN
+Pars: 0.511476  0.088705  0.808690  0.519244  
+Timestamp 10:39:20.29
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:21.142
+Iter: 76029
+Best: NaN
+Pars: 0.149754  0.595120  0.346328  0.237183  
+Timestamp 10:39:21.143
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:21.995
+Iter: 76137
+Best: NaN
+Pars: 0.149754  0.595120  0.346328  0.237183  
+Timestamp 10:39:21.996
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:22.772
+Iter: 76245
+Best: NaN
+Pars: 0.198846  0.140389  0.338992  0.719327  
+Timestamp 10:39:22.773
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:23.632
+Iter: 76353
+Best: NaN
+Pars: 0.785084  0.822095  0.895328  0.749092  
+Timestamp 10:39:23.633
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:24.48
+Iter: 76461
+Best: NaN
+Pars: 0.122030  0.407235  0.039871  0.273346  
+Timestamp 10:39:24.481
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:25.267
+Iter: 76569
+Best: NaN
+Pars: 0.554592  0.244384  0.865783  0.012461  
+Timestamp 10:39:25.268
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:26.074
+Iter: 76677
+Best: NaN
+Pars: 0.831047  0.275099  0.258955  0.711711  
+Timestamp 10:39:26.074
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:26.916
+Iter: 76785
+Best: NaN
+Pars: 0.831047  0.275099  0.258955  0.711711  
+Timestamp 10:39:26.917
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:27.783
+Iter: 76893
+Best: NaN
+Pars: 0.831047  0.275099  0.258955  0.711711  
+Timestamp 10:39:27.784
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:28.617
+Iter: 77001
+Best: NaN
+Pars: 0.441828  0.044559  0.056332  0.031189  
+Timestamp 10:39:28.617
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:29.511
+Iter: 77109
+Best: NaN
+Pars: 0.802656  0.814145  0.397737  0.731221  
+Timestamp 10:39:29.512
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:30.339
+Iter: 77217
+Best: NaN
+Pars: 0.543668  0.109303  0.926946  0.400045  
+Timestamp 10:39:30.339
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:31.203
+Iter: 77325
+Best: NaN
+Pars: 0.323306  0.307155  0.042725  0.989366  
+Timestamp 10:39:31.203
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:32.022
+Iter: 77433
+Best: NaN
+Pars: 0.826843  0.910994  0.312300  0.999051  
+Timestamp 10:39:32.022
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:32.93
+Iter: 77541
+Best: NaN
+Pars: 0.826843  0.910994  0.312300  0.999051  
+Timestamp 10:39:32.93
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:33.805
+Iter: 77649
+Best: NaN
+Pars: 0.826843  0.910994  0.312300  0.999051  
+Timestamp 10:39:33.805
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:34.649
+Iter: 77757
+Best: NaN
+Pars: 0.311866  0.312786  0.417695  0.673723  
+Timestamp 10:39:34.65
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:35.478
+Iter: 77865
+Best: NaN
+Pars: 0.311866  0.312786  0.417695  0.673723  
+Timestamp 10:39:35.479
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:36.288
+Iter: 77973
+Best: NaN
+Pars: 0.392473  0.613463  0.461144  0.400917  
+Timestamp 10:39:36.288
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:37.132
+Iter: 78081
+Best: NaN
+Pars: 0.392473  0.613463  0.461144  0.400917  
+Timestamp 10:39:37.133
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:37.913
+Iter: 78189
+Best: NaN
+Pars: 0.392473  0.613463  0.461144  0.400917  
+Timestamp 10:39:37.914
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:38.706
+Iter: 78297
+Best: NaN
+Pars: 0.392473  0.613463  0.461144  0.400917  
+Timestamp 10:39:38.707
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:39.561
+Iter: 78405
+Best: NaN
+Pars: 0.030614  0.274242  0.153867  0.404031  
+Timestamp 10:39:39.562
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:40.359
+Iter: 78513
+Best: NaN
+Pars: 0.165662  0.202272  0.277196  0.349083  
+Timestamp 10:39:40.36
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:41.171
+Iter: 78621
+Best: NaN
+Pars: 0.984174  0.084157  0.466071  0.144290  
+Timestamp 10:39:41.172
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:41.941
+Iter: 78729
+Best: NaN
+Pars: 0.846381  0.195271  0.152609  0.423258  
+Timestamp 10:39:41.941
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:42.75
+Iter: 78837
+Best: NaN
+Pars: 0.846381  0.195271  0.152609  0.423258  
+Timestamp 10:39:42.751
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:43.561
+Iter: 78945
+Best: NaN
+Pars: 0.453534  0.408049  0.094143  0.116457  
+Timestamp 10:39:43.561
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:44.381
+Iter: 79053
+Best: NaN
+Pars: 0.872736  0.195697  0.427737  0.110554  
+Timestamp 10:39:44.381
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:45.205
+Iter: 79161
+Best: NaN
+Pars: 0.872736  0.195697  0.427737  0.110554  
+Timestamp 10:39:45.206
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:46.002
+Iter: 79269
+Best: NaN
+Pars: 0.538978  0.587397  0.213136  0.922160  
+Timestamp 10:39:46.003
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:46.808
+Iter: 79377
+Best: NaN
+Pars: 0.995025  0.809566  0.248824  0.538118  
+Timestamp 10:39:46.809
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:47.574
+Iter: 79485
+Best: NaN
+Pars: 0.449142  0.075068  0.748683  0.711446  
+Timestamp 10:39:47.575
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:48.366
+Iter: 79593
+Best: NaN
+Pars: 0.869191  0.774705  0.271165  0.195010  
+Timestamp 10:39:48.367
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:49.145
+Iter: 79701
+Best: NaN
+Pars: 0.869191  0.774705  0.271165  0.195010  
+Timestamp 10:39:49.146
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:49.959
+Iter: 79809
+Best: NaN
+Pars: 0.869191  0.774705  0.271165  0.195010  
+Timestamp 10:39:49.959
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:50.712
+Iter: 79917
+Best: NaN
+Pars: 0.869191  0.774705  0.271165  0.195010  
+Timestamp 10:39:50.713
+Evolving 12 complexes on 12 thread(s).
+...
+Evolution of all complexes finished.
+
+Timestamp 10:39:51.511
+Iter: 80025
+Best: NaN
+Pars: 0.350049  0.122405  0.463752  0.593042  
+Timestamp 10:39:51.512
+
+Calibration finished normally.
+Best fitness was NaN
+Pars: 0.350049  0.122405  0.463752  0.593042  
+
+Model report
+============
+
+

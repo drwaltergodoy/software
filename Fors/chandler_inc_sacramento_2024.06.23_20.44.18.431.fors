@@ -1,0 +1,63 @@
+// fors model saved at 23/06/2024 20:53:15.324
+
+///////////////////////////////////////
+// input data definitions
+
+[input]
+name = 86131
+file = c:\fors\86131_detrended_rainfall.csv
+
+[input]
+name = 86035
+file = c:\fors\86035_detrended_rainfall.csv
+
+[input]
+name = 86070
+file = c:\fors\86070_detrended_rainfall.csv
+
+[input]
+name = evap
+file = c:\fors\86070_morton_wet_detrended.csv
+
+///////////////////////////////////////
+// node definitions
+
+[sacramento]
+name = sacramento_node
+area = 669.4
+model = sacramento_model
+dsnode = loss_node
+
+[function]
+name = outlet
+location = -45, -20
+expression = nan
+
+[loss]
+name = loss_node
+location = -18.29545, 1.363636
+losstable = loss_off.csv
+dsnode = outlet
+
+///////////////////////////////////////
+// sacramento models
+
+[sacramento model]
+name = sacramento_model
+rainfall = 0.914081611164884*86131 + 0.0632535499193183*86035 + 0.0226648389157982*86070
+evaporation = evap
+parameters = +
+    0.0207211064989563, 1.18189477004322, 34.3104827496878, 0.0134482080647325, + //adimp, lzfpm, lzfsm, lzpk
+    0.108535569614963, 77.0007194058788, 0.0324315094651122, 0.417342818841384, + //lzsk, lztwm, pctim, pfree
+    2.70954645607254, 0.0211969402657435, 0.000408655062231304, 0.00542382194618105, + //rexp, sarva, side, ssout
+    26.7314896463441, 0.359715711788645, 23.7931147789074, 1.35425587400816 //uzfwm, uzk, uztwm, zperc
+uh = 0, 0.737835565925499, 0.262164434074501
+
+///////////////////////////////////////
+// recorders
+
+[recorder]
+node = outlet
+outno = 0
+filename = c:\fors\chandler_inc_sacramento_output.csv
+

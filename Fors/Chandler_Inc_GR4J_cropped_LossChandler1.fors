@@ -1,0 +1,55 @@
+// GR4J
+
+///////////////////////////////////////
+// input data definitions
+
+[input]
+name = 86131
+file = c:\fors\86131_detrended_rainfall.csv
+
+[input]
+name = 86035
+file = c:\fors\86035_detrended_rainfall.csv
+
+[input]
+name = 86070
+file = c:\fors\86070_detrended_rainfall.csv
+
+[input]
+name = evap
+file = c:\fors\86035_morton_wet_detrended.csv
+
+///////////////////////////////////////
+// node definitions
+
+[gr4j]
+name = gr4jnode
+location = -0.3409159, 13.29545
+area = 669.4
+rainfall = 0.41*86131 + 0.16*86035 + 0.43*86070
+evaporation = evap
+parameters = 297.7, 5.1, 85.9, 3.95
+dsnode = loss_node
+
+[function]
+name = outlet
+location = -45, -20
+expression = nan
+
+[loss]
+name = loss_node
+location = -18.29545, 1.363636
+losstable = loss_Chandler1.csv
+dsnode = outlet
+
+///////////////////////////////////////
+// GR4J model
+
+///////////////////////////////////////
+// recorders
+
+[recorder]
+node = outlet
+outno = 0
+filename = C:\Fors\Chandler_Inc_GR4J_cropped_LossChandler1_output.csv
+

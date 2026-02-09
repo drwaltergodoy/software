@@ -1,0 +1,55 @@
+// fors model saved at 01/07/2024 11:20:35.149
+
+///////////////////////////////////////
+// input data definitions
+
+[input]
+name = 86131
+file = c:\fors\86131_detrended_rainfall.csv
+
+[input]
+name = 86035
+file = c:\fors\86035_detrended_rainfall.csv
+
+[input]
+name = 86070
+file = c:\fors\86070_detrended_rainfall.csv
+
+[input]
+name = evap
+file = c:\fors\86035_morton_wet_detrended.csv
+
+///////////////////////////////////////
+// node definitions
+
+[gr4j]
+name = gr4jnode
+location = -0.3409159, 13.29545
+area = 669.4
+rainfall = 0.93*86131 + 0.05*86035 + 0.02*86070
+evaporation = evap
+parameters = 658.44590689152, -3.99614204285679, 252.472543997426, 3.82374415904325
+dsnode = loss_node
+
+[function]
+name = outlet
+location = -45, -20
+expression = nan
+
+[loss]
+name = loss_node
+location = -18.29545, 1.363636
+losstable = loss_off.csv
+dsnode = outlet
+
+///////////////////////////////////////
+// sacramento models
+
+///////////////////////////////////////
+// recorders
+
+[recorder]
+node = outlet
+outno = 0
+filename = c:\fors\chandler_inc_gr4j_output.csv
+
